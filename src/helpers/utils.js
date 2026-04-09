@@ -249,21 +249,35 @@ export const useUtils = () => {
     /**
      * @param {Boolean} enabled
      */
+    let scrollLockCount = 0
     const setPageScrollingEnabled = (enabled) => {
         const body = document.body
 
         if(!enabled) {
+            scrollLockCount++
+            if (scrollLockCount > 1) return
+
             window.savedScrollY = window.scrollY
             body.classList.add(`body-no-scroll`)
             if(isIOS()) {
+                body.style.top = `-${window.savedScrollY}px`
                 body.classList.add(`position-fixed`)
+                body.style.width = '100%'
             }
         }
         else {
+            scrollLockCount = Math.max(0, scrollLockCount - 1)
+            if (scrollLockCount > 0) return
+            
             body.classList.remove(`body-no-scroll`)
-            body.classList.remove(`position-fixed`)
+            
+            if(isIOS()) {
+                body.classList.remove(`position-fixed`)
+                body.style.top = ''
+                body.style.width = ''
+            }
 
-            if(window.savedScrollY) {
+            if(window.savedScrollY !== undefined && window.savedScrollY !== null) {
                 window.scrollTo(0, window.savedScrollY)
                 window.savedScrollY = null
             }

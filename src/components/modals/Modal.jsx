@@ -12,8 +12,12 @@ const scheduler = useScheduler()
 
 function Modal({children, className, id, visible}) {
     useEffect(() => {
-        window.scrollTo(0, Math.max(0, window.scrollTop - 1))
+        window.scrollTo(0, Math.max(0, window.scrollY - 1))
         utils.setPageScrollingEnabled(!visible)
+
+        return () => {
+            utils.setPageScrollingEnabled(true)
+        }
     }, [visible])
 
     return (
