@@ -1,0 +1,446 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "My professional journey and",
+            "title_long": "**Career Milestones**"
+        },
+        "ar": {
+            "title": "الخبرة",
+            "title_long_prefix": "رحلتي المهنية و",
+            "title_long": "**محطات مسيرتي**"
+        },
+        "ku": {
+            "title": "ئەزموون",
+            "title_long_prefix": "گەشتی پیشەیی و",
+            "title_long": "**قۆناغەکانی کارکردنم**"
+        }
+    },
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/ukh-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "02/01/2026",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Adjunct Faculty** – Ethical Hacking & PenTesting",
+                            "info": "University of Kurdistan Hewlêr (UKH) - Erbil",
+                            "text": "<p>Teaching 3rd-stage undergraduate students in ethical hacking and penetration testing, focusing on identifying, analyzing, and mitigating security vulnerabilities.</p> <ul class='mt-3'><li>Delivered core concepts in network scanning and exploitation</li><li>Designed practical labs using Kali Linux tools</li><li>Introduced Python scripting for security automation</li></ul>",
+                            "tags": [
+                                "Cybersecurity",
+                                "Ethical Hacking",
+                                "Education"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**أستاذ مساعد** – الاختراق الأخلاقي واختبار الاختراق",
+                            "info": "جامعة كوردستان هولير (UKH) - أربيل",
+                            "text": "<p>تدريس طلاب المرحلة الثالثة في الاختراق الأخلاقي واختبار الاختراق، مع التركيز على تحديد وتحليل وتخفيف الثغرات الأمنية.</p> <ul class='mt-3'><li>تقديم المفاهيم الأساسية في مسح الشبكات والاستغلال</li><li>تصميم مختبرات عملية باستخدام أدوات Kali Linux</li><li>تقديم برمجة Python لأتمتة المهام الأمنية</li></ul>",
+                            "tags": [
+                                "الأمن السيبراني",
+                                "الاختراق الأخلاقي",
+                                "التعليم"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**مامۆستای یاریدەدەر** – هاککردنی ئەخلاقی و تاقیکردنەوەی چوونەناوەوە",
+                            "info": "زانکۆی کوردستان هولێر (UKH) - هەولێر",
+                            "text": "<p>وانەوتنەوە بە خوێندکارانی قۆناغی سێیەم لە هاککردنی ئەخلاقی و تاقیکردنەوەی چوونەناوەوە، بە سەرنجخستنە سەر ناسینەوە و شیکردنەوەی کەلێنە ئەمنییەکان.</p> <ul class='mt-3'><li>گەیاندنی چەمکە سەرەکییەکان لە سکانکردنی تۆڕ و ئیستغلالکردن</li><li>دیزاینکردنی تاقیگەی پراکتیکی بە ئامرازەکانی Kali Linux</li><li>ناساندنی پرۆگرامسازی Python بۆ ئۆتۆماتیککردنی کارە ئەمنییەکان</li></ul>",
+                            "tags": [
+                                "ئاسایشی ئەلیکترۆنی",
+                                "هاککردنی ئەخلاقی",
+                                "پەروەردە"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/ukh-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "09/01/2025",
+                        "end": "02/01/2026"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Adjunct Faculty** - Secure DevOps (DevSecOps)",
+                            "info": "University of Kurdistan Hewlêr (UKH) - Erbil",
+                            "text": "<p>Teaching 4th-stage undergraduate students in Secure DevOps, focusing on integrating security practices within modern deployment pipelines.</p> <ul class='mt-3'><li>Delivered concepts in secure CI/CD pipelines and threat modeling</li><li>Conducted practical labs on security testing and automation</li><li>Guided students in security best practices across SDLC</li></ul>",
+                            "tags": [
+                                "DevSecOps",
+                                "CI/CD",
+                                "Security Automation"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**أستاذ مساعد** - ديف أوبس آمن (DevSecOps)",
+                            "info": "جامعة كوردستان هولير (UKH) - أربيل",
+                            "text": "<p>تدريس طلاب المرحلة الرابعة في DevSecOps، مع التركيز على دمج ممارسات الأمان في أنابيب النشر الحديثة.</p> <ul class='mt-3'><li>تقديم مفاهيم CI/CD والنمذجة الأمنية</li><li>إجراء مختبرات حول اختبار الأمان والأتمتة</li><li>توجيه الطلاب في أفضل ممارسات SDLC</li></ul>",
+                            "tags": [
+                                "ديف أوبس",
+                                "CI/CD",
+                                "أتمتة الأمان"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**مامۆستای یاریدەدەر** - دیف-ئۆپسی پارێزراو (DevSecOps)",
+                            "info": "زانکۆی کوردستان هولێر (UKH) - هەولێر",
+                            "text": "<p>وانەوتنەوە بە خوێندکارانی قۆناغی چوارەم لە Secure DevOps، بە سەرنجخستنە سەر تێکەڵکردنی پراکتیکە ئەمنییەکان لەگەڵ بڵاوکردنەوەی مۆدێرن.</p> <ul class='mt-3'><li>باسی چەمکەکانی CI/CD و لۆژیکی ئەمنی</li><li>تاقیگەی پراکتیکی لەسەر تاقیکردنەوەی ئەمنی</li><li>ڕێنماییکردنی خوێندکاران لە پراکتیکی SDLC</li></ul>",
+                            "tags": [
+                                "دیف-ئۆپس",
+                                "CI/CD",
+                                "ئۆتۆماتیککردنی ئەمنی"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/salahaddin-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "09/01/2025",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Instructor** – Mobile Programming & Development",
+                            "info": "Salahaddin University-Erbil",
+                            "text": "<p>Teaching 3rd-stage undergraduate students in Mobile Programming. Designing and delivering lectures, practical sessions, and assessments.</p> <ul class='mt-3'><li>Designing comprehensive Mobile Programming curriculum</li><li>Guiding students in modern tools and frameworks</li><li>Evaluating student progress through practical projects</li></ul>",
+                            "tags": [
+                                "Mobile Development",
+                                "Flutter",
+                                "Teaching"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**مدرب** – برمجة وتطوير المحمول",
+                            "info": "جامعة صلاح الدين-أربيل",
+                            "text": "<p>تدريس طلاب المرحلة الثالثة في برمجة المحمول. تصميم وتقديم المحاضرات والجلسات العملية والتقييمات.</p> <ul class='mt-3'><li>تصميم منهج شامل لبرمجة المحمول</li><li>توجيه الطلاب في الأدوات وأطر العمل الحديثة</li><li>تقييم تقدم الطلاب من خلال المشاريع العملية</li></ul>",
+                            "tags": [
+                                "تطوير المحمول",
+                                "فلاتر",
+                                "التدريس"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**ڕاهێنەر** – بەرنامەسازی و گەشەپێدانی مۆبایل",
+                            "info": "زانکۆی سەڵاحەدین-هەولێر",
+                            "text": "<p>وانەوتنەوە بە خوێندکارانی قۆناغی سێیەم لە بەرنامەسازی مۆبایل. دیزاینکردنی وانە و دانیشتنە پراکتیکییەکان.</p> <ul class='mt-3'><li>دیزاینکردنی میتۆدۆلۆژیای بەرنامەسازی مۆبایل</li><li>ڕێنماییکردنی خوێندکاران بۆ ئامرازە مۆدێرنەکان</li><li>هەڵسەنگاندنی پێشکەوتنی خوێندکاران بە پڕۆژە</li></ul>",
+                            "tags": [
+                                "پەرەپێدانی مۆبایل",
+                                "فلاتەر",
+                                "وانەوتنەوە"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/arminas-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "01/01/2025",
+                        "end": "09/01/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**ERP System** Administrator",
+                            "info": "Microsoft Dynamics 365 Business Central - Arminas Company - Iraqi Kurdistan",
+                            "text": "<p>Configure and manage user roles, permissions, and security policies to ensure compliance and role-based access control (RBAC).</p> <ul class='mt-3'><li>Design and implement approval workflows for business processes</li><li>Provide technical support and troubleshooting for end-users</li><li>Optimize ERP functionalities through cross-functional collaboration</li></ul>",
+                            "tags": [
+                                "ERP",
+                                "Dynamic 365",
+                                "System Admin"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**مدير نظام** ERP",
+                            "info": "مايكروسوفت دايناميكس 365 - كوردستان",
+                            "text": "<p>تكوين وإدارة أدوار المستخدمين والأذونات وسياسات الأمان لضمان الامتثال والتحكم في الوصول القائم على الأدوار (RBAC).</p> <ul class='mt-3'><li>تصميم وتنفيذ مهام سير عمل الموافقة</li><li>تقديم الدعم الفني واستكشاف الأخطاء للمستخدمين</li><li>تحسين وظائف ERP من خلال التعاون المشترك</li></ul>",
+                            "tags": [
+                                "ERP",
+                                "دايناميكس 365",
+                                "إدارة الأنظمة"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**بەڕێوەبەری سیستەمی** ERP",
+                            "info": "Microsoft Dynamics 365 Business Central - کوردستان",
+                            "text": "<p>ڕێکخستن و بەڕێوەبردنی ڕۆڵی بەکارهێنەران، دەسەڵاتەکان، و سیاسەتە ئەمنییەکان بۆ دڵنیابوون لە پاراستنی سیستەمەکە.</p> <ul class='mt-3'><li>دیزاینکردنی هێڵکاری پەسەندکردن (approval workflows)</li><li>دابینکردنی پشتگیری تەکنیکی بۆ بەکارهێنەران</li><li>باشترکردنی کارایی سیستەمی ERP</li></ul>",
+                            "tags": [
+                                "ERP",
+                                "مایکرۆسۆفت داینامیکس",
+                                "بەڕێوەبەری سیستەم"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/arminas-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "11/01/2020",
+                        "end": "12/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**IT Help Desk** & Social Media Specialist",
+                            "info": "Arminas Company - Iraqi Kurdistan",
+                            "text": "<p>Comprehensive IT support for exclusive brand dealer. Managed social media presence and digital marketing optimization.</p> <ul class='mt-3'><li>Managed IT infrastructure for luxury brand dealership</li><li>Developed digital strategies for Meta, LinkedIn, and Instagram</li><li>Implemented Google Business and Adsense optimization</li></ul>",
+                            "tags": [
+                                "IT Support",
+                                "Digital Marketing",
+                                "Social Media"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**مسؤول دعم فني** وأخصائي تواصل اجتماعي",
+                            "info": "شركة أرميناس - كوردستان العراق",
+                            "text": "<p>دعم فني شامل لوكيل حصري لماركات عالمية. إدارة التواجد على وسائل التواصل الاجتماعي وتحسين التسويق الرقمي.</p> <ul class='mt-3'><li>إدارة البنية التحتية لتقنية المعلومات للشركة</li><li>تطوير استراتيجيات لميتا ولينكد إن وإنستغرام</li><li>تنفيذ تحسينات Google Business و Adsense</li></ul>",
+                            "tags": [
+                                "الدعم الفني",
+                                "التسويق الرقمي",
+                                "التواصل الاجتماعي"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**پشتگیری تەکنیکی** و پسپۆڕی سۆشیاڵ میدیا",
+                            "info": "کۆمپانیای ئارمیناس - کوردستانی عێراق",
+                            "text": "<p>دابینکردنی پشتگیری تەکنیکی بۆ براندە نێودەوڵەتییەکان. بەڕێوەبردنی سۆشیاڵ میدیا و باشترکردنی مارکێتینگی دیجیتاڵی.</p> <ul class='mt-3'><li>بەڕێوەبردنی ژێرخانی IT بۆ کۆمپانیاکە</li><li>دانانی ستراتیژی بۆ فەیسبووک و ئینستاگرام و لینکدئین</li><li>باشترکردنی Google Business و Adsense</li></ul>",
+                            "tags": [
+                                "پشتگیری IT",
+                                "مارکێتینگی دیجیتاڵی",
+                                "سۆشیاڵ میدیا"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-laptop-code",
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "03/01/2020",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Freelance** Web Developer",
+                            "info": "Independent Contractor - Iraqi Kurdistan",
+                            "text": "<p>Full-stack development specializing in secure, responsive applications. Created custom solutions for diverse clients using Laravel and React.</p>",
+                            "tags": [
+                                "Freelance",
+                                "Laravel",
+                                "React",
+                                "Full-Stack"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**مطور ويب** مستقل",
+                            "info": "متعاقد مستقل - كوردستان العراق",
+                            "text": "<p>تطوير شامل متخصص في التطبيقات الآمنة وسريعة الاستجابة. إنشاء حلول مخصصة للعملاء باستخدام Laravel و React.</p>",
+                            "tags": [
+                                "عمل حر",
+                                "لارافل",
+                                "رياكت",
+                                "تطوير شامل"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**پەرەپێدەری وێب**ی سەربەخۆ",
+                            "info": "گرێبەستی سەربەخۆ - کوردستانی عێراق",
+                            "text": "<p>گەشەپێدانی فۆڵ-ستاک بە پسپۆڕی لە بەرنامە وێڵدار و پارێزراوەکان. دروستکردنی پڕۆژە بە Laravel و React.</p>",
+                            "tags": [
+                                "فریلانسەر",
+                                "لارافێڵ",
+                                "ریاکت",
+                                "وێب"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/jiasaz-logo-yellow.svg",
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "03/01/2019",
+                        "end": "03/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Web Developer**",
+                            "info": "Jiasaz IT Solutions - Iraqi Kurdistan",
+                            "text": "<p>Full-stack web development in a professional environment. Gained experience in software development life cycles and client relationship management.</p>",
+                            "tags": [
+                                "PHP",
+                                "JavaScript",
+                                "Client Relations"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**مطور ويب**",
+                            "info": "جيازساز للحلول البرمجية - كوردستان العراق",
+                            "text": "<p>تطوير ويب شامل في بيئة احترافية. اكتساب الخبرة في دورات حياة تطوير البرمجيات وإدارة علاقات العملاء.</p>",
+                            "tags": [
+                                "PHP",
+                                "جافا سكريبت",
+                                "علاقات العملاء"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**پەرەپێدەری وێب**",
+                            "info": "جیاساز بۆ چاره‌سه‌ری ته‌كنیكی - کوردستانی عێراق",
+                            "text": "<p>پەرەپێدانی وێب لە ژینگەیەکی پیشەییدا. وەرگرتنی ئەزموون لە سووڕی ژیانی پەرەپێدانی نەرمەکاڵا و بەڕێوەبردنی پەیوەندی لەگەڵ کڕیار.</p>",
+                            "tags": [
+                                "PHP",
+                                "جاڤاسکریپت",
+                                "پەرەپێدان"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/salahaddin-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "01/01/2019",
+                        "end": "01/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**IT Manager**",
+                            "info": "Engineering College - Salahaddin University",
+                            "text": "<p>Managed IT infrastructure and online services for the Engineering College. Provided comprehensive technical and help desk support.</p>",
+                            "tags": [
+                                "Management",
+                                "Infrastructure",
+                                "Technical Support"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**مدير تقنية المعلومات**",
+                            "info": "كلية الهندسة - جامعة صلاح الدين",
+                            "text": "<p>إدارة البنية التحتية لتكنولوجيا المعلومات والخدمات عبر الإنترنت لكلية الهندسة. تقديم دعم فني شامل.</p>",
+                            "tags": [
+                                "إدارة",
+                                "بنية تحتية",
+                                "دعم فني"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**بەڕێوەبەری IT**",
+                            "info": "کۆلێژی ئەندازیاری - زانکۆی سەڵاحەدین",
+                            "text": "<p>بەڕێوەبردنی ژێرخانی IT و خزمەتگوزارییەکانی ئۆنلاین بۆ کۆلێژی ئەندازیاری. دابینکردنی پشتگیری تەکنیکی گشتگیر.</p>",
+                            "tags": [
+                                "بەڕێوەبردن",
+                                "ژێرخان",
+                                "پشتگیری IT"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/swedo-logo.svg",
+                        "fa": null,
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "10/15/2015",
+                        "end": "12/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Senior** Data Entry Specialist",
+                            "info": "Qandil Swedish Humanitarian Aid Organization",
+                            "text": "<p>Managed humanitarian data and reporting for IDP distribution projects. Responsible for complex database management and coordination.</p> <ul class='mt-3'><li>Managed Cash for Winterization project for 19,500 families</li><li>Coordinated with UNHCR for distribution approval</li><li>Excellence in ActivityInfo and ASSIST database systems</li></ul>",
+                            "tags": [
+                                "Humanitarian",
+                                "Data Management",
+                                "Reporting"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**أخصائي** مدخل بيانات أول",
+                            "info": "منظمة قنديل للمساعدات الإنسانية السويدية",
+                            "text": "<p>إدارة البيانات الإنسانية والتقارير لمشاريع توزيع المساعدات للنازحين. مسؤول عن إدارة قواعد البيانات المعقدة والتنسيق.</p> <ul class='mt-3'><li>إدارة مشروع النقد للشتاء لـ 19,500 عائلة نازحة</li><li>التنسيق مع مفوضية اللاجئين (UNHCR) لاعتماد التوزيع</li><li>التميز في أنظمة قواعد البيانات ActivityInfo و ASSIST</li></ul>",
+                            "tags": [
+                                "إنساني",
+                                "إدارة بيانات",
+                                "تقارير"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**پسپۆڕی باڵای** داخڵکردنی زانیاری",
+                            "info": "ڕێکخراوی قەندیل بۆ هاوکاری مرۆیی سویدی",
+                            "text": "<p>بەڕێوەبردنی زانیاری و ڕاپۆرتە مرۆیییەکان بۆ پڕۆژەکانی دابەشکردن. بەرپرسیار لە بەڕێوەبردنی داتابەیس و هەماهەنگی.</p> <ul class='mt-3'><li>بەڕێوەبردنی پڕۆژەی نەختینە بۆ زستان بۆ ١٩،٥٠٠ خێزان</li><li>هەماهەنگی لەگەڵ UNHCR بۆ پەسەندکردنی دابەشکردن</li><li>کارکردن لەسەر سیستەمەکانی ActivityInfo و ASSIST</li></ul>",
+                            "tags": [
+                                "مرۆیی",
+                                "بەڕێوەبردنی زانیاری",
+                                "ڕاپۆرتکردن"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

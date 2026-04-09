@@ -1,0 +1,187 @@
+{
+    "locales": {
+        "en": {
+            "title": "Life recently",
+            "title_menu": "Updates",
+            "title_long_prefix": "Take a look at my",
+            "title_long": "Recent **Updates**"
+        },
+        "ar": {
+            "title": "الحياة مؤخراً",
+            "title_menu": "التحديثات",
+            "title_long_prefix": "ألقِ نظرة على",
+            "title_long": "آخر **التحديثات**"
+        },
+        "ku": {
+            "title": "ژیان لەم دواییانەدا",
+            "title_menu": "نوێکارییەکان",
+            "title_long_prefix": "چاوێک لە",
+            "title_long": "دوایین **نوێکارییەکان** بپۆشە"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "fun_facts",
+            "component": "ArticleServices",
+            "config": {},
+            "locales": {
+                "en": { "title": "Quick **Facts**" },
+                "ar": { "title": "حقائق سريعة" },
+                "ku": { "title": "ڕاستییە خێراکان" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-globe",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "04",
+                            "info": "Countries visited"
+                        },
+                        "ar": {
+                            "title": "٠٤",
+                            "info": "دول تمت زيارتها"
+                        },
+                        "ku": {
+                            "title": "٠٤",
+                            "info": "وڵاتانی سەردانیکراو"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-diagram-project",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "03",
+                            "info": "Open-source projects"
+                        },
+                        "ar": {
+                            "title": "٠٣",
+                            "info": "مشاريع مفتوحة المصدر"
+                        },
+                        "ku": {
+                            "title": "٠٣",
+                            "info": "پڕۆژەی سەرچاوە کراوە"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-coffee",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "100",
+                            "info": "Coffees consumed"
+                        },
+                        "ar": {
+                            "title": "١٠٠",
+                            "info": "أكواب قهوة مستهلكة"
+                        },
+                        "ku": {
+                            "title": "١٠٠",
+                            "info": "قاوەی خوراو"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "updates",
+            "component": "ArticleThread",
+            "config": {
+                "shouldSort": false
+            },
+            "locales": {
+                "en": { "title": "Latest **Updates**" },
+                "ar": { "title": "آخر **التحديثات**" },
+                "ku": { "title": "دوایین **نوێکارییەکان**" }
+            },
+
+            "items": [
+                {
+                    "faIcon": "fa-solid fa-earth-americas",
+                    "dates": {
+                        "start": "04/01/2026",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_more", "href": "https://github.com/omer-github93" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Launched my **personal website**!",
+                            "text": "Created a personal website to showcase my projects, share my journey in programming, and provide resources for fellow developers."
+                        },
+                        "ar": {
+                            "title": "أطلقت **موقعي الشخصي**!",
+                            "text": "تم إنشاء موقع ويب شخصي لعرض مشاريعي، ومشاركة رحلتي في البرمجة، وتوفير الموارد لزملائي المطورين."
+                        },
+                        "ku": {
+                            "title": "وێب سایتی **کەسی خۆم** بڵاوکردەوە!",
+                            "text": "دروستکردنی وێب سایتێکی کەسی بۆ نیشاندانی پڕۆژەکانم، هاوبەشکردنی گەشتەکەم لە بەرنامەسازی، و دابینکردنی سەرچاوە بۆ گەشەپێدەرانی تر."
+                        }
+                    }
+                },
+                {
+                    "faIcon": "fa-solid fa-mobile-screen-button",
+                    "dates": {
+                        "start": "Coming soon!",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "Working on a new **mobile project**!",
+                            "text": "Currently developing a mobile application that integrates innovative features and user-friendly design, aimed at enhancing user experience and addressing specific market needs."
+                        },
+                        "ar": {
+                            "title": "العمل على **مشروع موبايل** جديد!",
+                            "text": "أقوم حاليًا بتطوير تطبيق جوال يدمج ميزات مبتكرة وتصميمًا سهل الاستخدام، يهدف إلى تحسين تجربة المستخدم وتلبية احتياجات السوق المحددة."
+                        },
+                        "ku": {
+                            "title": "کارکردن لەسەر پڕۆژەیەکی نوێی **مۆبایل**!",
+                            "text": "لە ئێستادا سەرقاڵی پەرەپێدانی ئەپڵیکەیشنێکی مۆبایلم کە تایبەتمەندی نوێ و دیزاینێکی ئاسان لەخۆدەگرێت، بە ئامانجی باشترکردنی ئەزموونی بەکارهێنەر."
+                        }
+                    }
+                },
+                {
+                    "faIcon": "fa-brands fa-youtube",
+                    "dates": {
+                        "start": "Coming soon!",
+                        "end": null
+                    },
+                    "links": [
+                        {"string": "see_more", "href": "https://youtube.com"}
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Started my own **YouTube channel**!",
+                            "text": "Launching a YouTube channel focused on programming tutorials, sharing insights and techniques on various technologies, and engaging with a community of aspiring developers."
+                        },
+                        "ar": {
+                            "title": "بدأت **قناتي الخاصة على يوتيوب**!",
+                            "text": "إطلاق قناة على يوتيوب تركز على دروس البرمجة، ومشاركة الأفكار والتقنيات حول التقنيات المختلفة، والتفاعل مع مجتمع من المطورين الطموحين."
+                        },
+                        "ku": {
+                            "title": "دەستپێکردنی **کەناڵی یوتیوبی** خۆم!",
+                            "text": "دەستپێکردنی کەناڵێکی یوتیوب کە جەخت لەسەر فێرکارییەکانی بەرنامەسازی دەکاتەوە، و هاوبەشکردنی تەکنیکە جیاوازەکان لەگەڵ گەشەپێدەران."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

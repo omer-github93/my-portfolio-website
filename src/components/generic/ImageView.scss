@@ -1,0 +1,21 @@
+@import "/src/styles/extend";
+
+.image-view-wrapper {
+    display: inline-flex;
+    overflow: hidden;
+    position: relative;
+
+    .image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 5px;
+        position: relative;
+    }
+
+    .spinner {
+        margin: auto;
+        max-width: 90%;
+        max-height: 90%;
+    }
+}

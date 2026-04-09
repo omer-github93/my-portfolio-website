@@ -1,0 +1,664 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore My",
+            "title_long": "**Core Competencies**"
+        },
+        "ar": {
+            "title": "المهارات",
+            "title_long_prefix": "استكشف",
+            "title_long": "**الكفاءات الجوهرية**"
+        },
+        "ku": {
+            "title": "شارەزایییەکان",
+            "title_long_prefix": "گەڕان لەنێو",
+            "title_long": "**شارەزایییە سەرەکییەکان**مدا"
+        }
+    },
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-server",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Backend** Development",
+                            "text": "Over 4 years of experience in PHP using Laravel, with strong expertise in modular architecture and domain-driven design (DDD). Experienced in routing, authentication, authorization, and business logic implementation."
+                        },
+                        "ar": {
+                            "title": "تطوير **الواجهة الخلفية**",
+                            "text": "أكثر من ٤ سنوات من الخبرة في PHP باستخدام Laravel، مع خبرة قوية في الهندسة المعمارية النمطية والتصميم الموجه بالمجال (DDD)."
+                        },
+                        "ku": {
+                            "title": "گەشەپێدانی **باک-ئێند**",
+                            "text": "زیاتر لە ٤ ساڵ ئەزموون لە PHP بە بەکارهێنانی Laravel، لەگەڵ ئەزموونێکی بەهێز لە تەلارسازی مۆدیولار و دیزاینی ئاراستەکراو بە بوار (DDD)."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-screen-button",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Frontend & Mobile** Development",
+                            "text": "Building high-performance interfaces for 6+ years using JavaScript, with specialized experience in React and Flutter (1+ year) and Tailwind CSS."
+                        },
+                        "ar": {
+                            "title": "تطوير **الواجهة الأمامية والمحمول**",
+                            "text": "بناء واجهات عالية الأداء لأكثر من ٦ سنوات باستخدام جافا سكريبت، مع خبرة متخصصة في رياكت وفلاتر (سنة+) و Tailwind CSS."
+                        },
+                        "ku": {
+                            "title": "گەشەپێدانی **فرۆنت-ئێند و مۆبایل**",
+                            "text": "دروستکردنی ڕووکاری بەهێز بۆ زیاتر لە ٦ ساڵ بە بەکارهێنانی JavaScript، لەگەڵ ئەزموونی تایبەت لە React و Flutter (ساڵێک+) و Tailwind CSS."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-window-restore",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**API** Development",
+                            "text": "Experienced in designing and building RESTful APIs using Laravel, including JSON-based communication, API authentication (Sanctum/JWT), and structured endpoint design."
+                        },
+                        "ar": {
+                            "title": "تطوير **واجهة برمجة التطبيقات**",
+                            "text": "خبير في تصميم وبناء واجهات برمجة تطبيقات RESTful باستخدام Laravel، بما في ذلك التواصل القائم على JSON، وتوثيق واجهة برمجة التطبيقات (Sanctum/JWT)، وتصميم نقاط النهاية المنظمة."
+                        },
+                        "ku": {
+                            "title": "گەشەپێدانی **API**",
+                            "text": "خاوەن ئەزموون لە دیزاینکردن و دروستکردنی RESTful APIs بە بەکارهێنانی Laravel، لەوانەش پەیوەندییەکان لەسەر بنەمای JSON، و دیزاینی خاڵە کۆتایییەکان (endpoints)."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database** Management",
+                            "text": "Strong experience with relational databases including MySQL, covering database design, normalization, indexing, and query optimization."
+                        },
+                        "ar": {
+                            "title": "إدارة **قواعد البيانات**",
+                            "text": "خبرة قوية في قواعد البيانات العلاقية بما في ذلك MySQL، تشمل تصميم قواعد البيانات، التطبيع، الفهرسة، وتحسين الاستعلامات."
+                        },
+                        "ku": {
+                            "title": "بەڕێوەبردنی **بنکەی زانیاری**",
+                            "text": "ئەزموونێکی بەهێز لە بنکە زانیارییە پەیوەندیدارەکان وەک MySQL، لەوانەش دیزاینکردنی بنکەی زانیاری، نۆرمالایزکردن، ئیندێکسکردن و باشترکردنی کوێرییەکان."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-network-wired",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**DevOps &** Infrastructure",
+                            "text": "2+ years in Linux/Nginx hosting, CI/CD automation, and infrastructure management with Docker and K8s."
+                        },
+                        "ar": {
+                            "title": "**ديف أوبس** والبنية التحتية",
+                            "text": "أكثر من سنتين في استضافة Linux/Nginx، وأتمتة CI/CD، وإدارة البنية التحتية باستخدام Docker و K8s."
+                        },
+                        "ku": {
+                            "title": "**دیف-ئۆپس** و ژێرخان",
+                            "text": " زیاتر لە ٢ ساڵ ئەزموون لە Linux/Nginx هوستینگ، CI/CD ئۆتۆماتیککردن، و بەڕێوەبردنی ژێرخان."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-user-secret",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Cybersecurity** & PenTesting",
+                            "text": "Over 2 years of hands-on experience in ethical hacking and penetration testing using Kali Linux. Skilled in developing automation scripts with Python to support security testing."
+                        },
+                        "ar": {
+                            "title": "**الأمن السيبراني** واختبار الاختراق",
+                            "text": "أكثر من سنتين من الخبرة العملية في الاختراق الأخلاقي واختبار الاختراق باستخدام Kali Linux."
+                        },
+                        "ku": {
+                            "title": "**ئاسایشی ئەلیکترۆنی** و تاقیکردنەوەی چوونەناوەوە",
+                            "text": "زیاتر لە ٢ ساڵ ئەزموونی پراکتیکی لە هاککردنی ئەخلاقی و تاقیکردنەوەی چوونەناوەوە بە بەکارهێنانی Kali Linux."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Backend Development"
+                },
+                "ar": {
+                    "title": "تطوير الواجهة الخلفية"
+                },
+                "ku": {
+                    "title": "گەشەپێدانی باک-ئێند"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-php",
+                        "faColors": {
+                            "bg": "#777BB4",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "04/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PHP / Laravel",
+                            "info": "4+ years of experience in backend development and modular architecture."
+                        },
+                        "ar": {
+                            "title": "PHP / Laravel",
+                            "info": "أكثر من ٤ سنوات من الخبرة في تطوير الواجهة الخلفية وهيكلية الوحدات."
+                        },
+                        "ku": {
+                            "title": "PHP / Laravel",
+                            "info": "زیاتر لە ٤ ساڵ ئەزموون لە گەشەپێدانی باککێند و تەلارسازی مۆدیولار."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {
+                            "bg": "#4479A1",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "04/01/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": "5+ years expertise in database design and optimization."
+                        },
+                        "ar": {
+                            "title": "MySQL",
+                            "info": "أكثر من ٥ سنوات من الخبرة في تصميم قواعد البيانات وتحسينها."
+                        },
+                        "ku": {
+                            "title": "MySQL",
+                            "info": "زیاتر لە ٥ ساڵ ئەزموون لە دیزاینی بنکەی زانیاری و باشترکردن."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-window-restore",
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "04/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "REST APIs",
+                            "info": "4+ years of building robust and secure API ecosystems."
+                        },
+                        "ar": {
+                            "title": "REST APIs",
+                            "info": "أكثر من ٤ سنوات من بناء أنظمة API قوية وآمنة."
+                        },
+                        "ku": {
+                            "title": "REST APIs",
+                            "info": "زیاتر لە ٤ ساڵ لە دروستکردنی سیستەمی APIی بەهێز و پارێزراو."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Frontend & Mobile"
+                },
+                "ar": {
+                    "title": "الواجهة الأمامية والمحمول"
+                },
+                "ku": {
+                    "title": "فرۆنت-ئێند و مۆبایل"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {
+                            "bg": "#61DAFB",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "04/01/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": "1+ year of building modern, responsive web interfaces."
+                        },
+                        "ar": {
+                            "title": "React",
+                            "info": "أكثر من سنة من بناء واجهات ويب حديثة ومستجيبة."
+                        },
+                        "ku": {
+                            "title": "React",
+                            "info": "زیاتر لە ساڵێک ئەزموون لە دروستکردنی ڕووکاری وێبی مۆدێرن."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {
+                            "bg": "#F7DF1E",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "04/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "info": "6+ years of experience in modern ES6+ development."
+                        },
+                        "ar": {
+                            "title": "JavaScript",
+                            "info": "أكثر من ٦ سنوات من الخبرة في تطوير ES6+ الحديث."
+                        },
+                        "ku": {
+                            "title": "JavaScript",
+                            "info": "زیاتر لە ٦ ساڵ ئەزموون لە پەرەپێدانی ES6+ ی مۆدێرن."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-mobile-screen",
+                        "faColors": {
+                            "bg": "#02569B",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "04/01/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Flutter",
+                            "info": "1+ year experience in cross-platform mobile development."
+                        },
+                        "ar": {
+                            "title": "Flutter",
+                            "info": "أكثر من سنة من الخبرة في تطوير الهواتف عبر المنصات."
+                        },
+                        "ku": {
+                            "title": "Flutter",
+                            "info": "زیاتر لە ساڵێک ئەزموون لە گەشەپێدانی مۆبایل بۆ هەموو پلاتفۆرمەکان."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-palette",
+                        "faColors": {
+                            "bg": "#38B2AC",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "04/01/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind CSS",
+                            "info": "1+ year building optimized, utility-first interfaces."
+                        },
+                        "ar": {
+                            "title": "Tailwind CSS",
+                            "info": "أكثر من سنة من بناء واجهات متميزة باستخدام Tailwind."
+                        },
+                        "ku": {
+                            "title": "Tailwind CSS",
+                            "info": "زیاتر لە ساڵێک لە دروستکردنی ڕووکاری مۆدێرن بە Tailwind."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "infrastructure_security",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "DevOps & Security"
+                },
+                "ar": {
+                    "title": "ديف أوبس والأمان"
+                },
+                "ku": {
+                    "title": "دیف-ئۆپس و ئاسایش"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-docker",
+                        "faColors": {
+                            "bg": "#2496ED",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "04/01/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Docker / K8s",
+                            "info": "1+ year of containerization and orchestration knowledge."
+                        },
+                        "ar": {
+                            "title": "Docker / K8s",
+                            "info": "أكثر من سنة من الخبرة في الحاويات والتنسيق."
+                        },
+                        "ku": {
+                            "title": "Docker / K8s",
+                            "info": "زیاتر لە ساڵێک ئەزموون لە بە قاڵبکردن و ڕێکخستنی سیستەمەکان."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linux",
+                        "faColors": {
+                            "bg": "#000",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "04/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Linux / Nginx / Kali",
+                            "info": "2+ years of server management and ethical hacking using Kali Linux."
+                        },
+                        "ar": {
+                            "title": "Linux / Nginx / Kali",
+                            "info": "أكثر من سنتين من إدارة الخوادم والاختراق الأخلاقي باستخدام Kali."
+                        },
+                        "ku": {
+                            "title": "Linux / Nginx / Kali",
+                            "info": "زیاتر لە ٢ ساڵ بەڕێوەبردنی سێرڤەر و هاککردنی ئەخلاقی بە Kali Linux."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-user-secret",
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "04/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cybersecurity",
+                            "info": "2+ years of penetration testing and ethical hacking."
+                        },
+                        "ar": {
+                            "title": "الأمن السيبراني",
+                            "info": "أكثر من سنتين في اختبار الاختراق والاختراق الأخلاقي."
+                        },
+                        "ku": {
+                            "title": "ئاسایشی ئەلیکترۆنی",
+                            "info": "زیاتر لە ٢ ساڵ ئەزموون لە تاقیکردنەوەی چوونەناوەوە."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-python",
+                        "faColors": {
+                            "bg": "#306998",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "04/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python Automation",
+                            "info": "2+ years of security scripting and automated analysis."
+                        },
+                        "ar": {
+                            "title": "أتمتة Python",
+                            "info": "أكثر من سنتين من البرمجة الأمنية والتحليل المؤتمت."
+                        },
+                        "ku": {
+                            "title": "ئۆتۆماتیککردن بە Python",
+                            "info": "زیاتر لە ٢ ساڵ لە دروستکردنی سکریپتی ئاساییشی ئۆتۆماتیک."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                },
+                "ar": {
+                    "title": "اللغات"
+                },
+                "ku": {
+                    "title": "زمانەکان"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "Proficient with excellent communication and writing skills.",
+                            "tags": [
+                                "Proficient"
+                            ]
+                        },
+                        "ar": {
+                            "title": "الإنجليزية",
+                            "info": "متمكن مع مهارات تواصل وكتابة ممتازة.",
+                            "tags": [
+                                "متقن"
+                            ]
+                        },
+                        "ku": {
+                            "title": "ئینگلیزی",
+                            "info": "شارەزایەکی زۆر لەگەڵ توانای نایاب بۆ پەیوەندیکردن و نووسین.",
+                            "tags": [
+                                "شارەزا"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/ku.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kurdish",
+                            "info": "Native speaker.",
+                            "tags": [
+                                "Native"
+                            ]
+                        },
+                        "ar": {
+                            "title": "الكوردية",
+                            "info": "اللغة الأم.",
+                            "tags": [
+                                "الأم"
+                            ]
+                        },
+                        "ku": {
+                            "title": "کوردی",
+                            "info": "زمانی دایک.",
+                            "tags": [
+                                "دایک"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/iq.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Arabic",
+                            "info": "Intermediate proficiency in Arabic language; confident in professional communication.",
+                            "tags": [
+                                "Intermediate"
+                            ]
+                        },
+                        "ar": {
+                            "title": "العربية",
+                            "info": "كفاءة متوسطة في اللغة العربية؛ واثق في التواصل المهني.",
+                            "tags": [
+                                "متوسط"
+                            ]
+                        },
+                        "ku": {
+                            "title": "عەرەبی",
+                            "info": "ئاستی مامناوەند لە زمانی عەرەبی؛ متمانەی تەواو بۆ پەیوەندی پیشەیی.",
+                            "tags": [
+                                "مامناوەند"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid" width="200" height="200" style="shape-rendering: auto; display: block; background: transparent;">
+  <!-- Outer Spinning Circle -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#339e49" stroke-width="6" stroke-dasharray="350 150" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" values="0 100 100;360 100 100" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Inner Spinning Circle -->
+  <circle cx="100" cy="100" r="65" fill="none" stroke="#ffffff" stroke-width="4" stroke-dasharray="150 250" stroke-linecap="round" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" values="360 100 100;0 100 100" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Animated Web App Brackets -->
+  <g fill="none" stroke="#339e49" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left Bracket < -->
+    <path d="M 75 80 L 50 100 L 75 120">
+      <animate attributeName="d" values="M 75 80 L 50 100 L 75 120; M 65 80 L 40 100 L 65 120; M 75 80 L 50 100 L 75 120" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="stroke" values="#339e49;#ffffff;#339e49" dur="4s" repeatCount="indefinite" />
+    </path>
+    <!-- Right Bracket > -->
+    <path d="M 125 80 L 150 100 L 125 120">
+      <animate attributeName="d" values="M 125 80 L 150 100 L 125 120; M 135 80 L 160 100 L 135 120; M 125 80 L 150 100 L 125 120" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="stroke" values="#339e49;#ffffff;#339e49" dur="4s" repeatCount="indefinite" />
+    </path>
+    <!-- Slash / -->
+    <path d="M 108 75 L 92 125" stroke="#ffffff" stroke-width="6">
+        <animate attributeName="stroke" values="#ffffff;#339e49;#ffffff" dur="4s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Branding Text -->
+  <text x="100" y="155" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" text-anchor="middle" letter-spacing="2">
+    OMER TECH
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+  </text>
+</svg>

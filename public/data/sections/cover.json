@@ -1,0 +1,279 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Omer Tariq!**"
+        },
+        "ar": {
+            "title": "أهلاً بك!",
+            "title_menu": "نبذة عني",
+            "title_long_prefix": "مرحباً...",
+            "title_long": "أنا **عمر طارق!**"
+        },
+        "ku": {
+            "title": "بەخێربێیت!",
+            "title_menu": "دەربارەی من",
+            "title_long_prefix": "سڵاو...",
+            "title_long": "من **عومەر طارق !**"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "ar": {},
+                "ku": {}
+            },
+            "items": [
+                {
+                    "value": "Erbil, Iraq",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "omer.hamajan@gmail.com",
+                    "links": [
+                        {
+                            "href": "mailto:omer.hamajan@gmail.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "@omer-github93",
+                    "links": [
+                        {
+                            "href": "https://github.com/omer-github93"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "**A little bit** about me..."
+                },
+                "ar": {
+                    "title": "**قليلاً** عني..."
+                },
+                "ku": {
+                    "title": "**کەمێک** دەربارەی من..."
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a <b>full-stack web developer</b> with solid experience in building scalable and secure applications, with a strong focus on backend development complemented by frontend expertise.</p><p>I specialize in <b>PHP</b> using the <b>Laravel</b> framework, <b>JavaScript</b> with <b>React</b>, and <b>Python</b>, allowing me to deliver efficient, high-quality solutions across different layers of web development.</p><p>In addition to my industry experience, I have an academic background where I’ve taught university students mobile application development using <b>Flutter</b> and <b>Dart</b>. I’ve also delivered training in <b>Secure DevOps</b>, <b>ethical hacking</b>, and <b>penetration testing</b>, combining practical development skills with a strong security mindset.</p><p>This combination of professional and academic experience enables me to adapt quickly, solve complex problems, and contribute effectively to diverse projects.</p>"
+                        },
+                        "ar": {
+                            "text": "<p>أنا <b>مطور ويب (full-stack)</b> أمتلك خبرة قوية في بناء تطبيقات قابلة للتوسع وآمنة، مع تركيز كبير على تطوير <b>الواجهة الخلفية (backend)</b> مدعومة بخبرة في <b>الواجهات الأمامية (frontend)</b>.</p><p>أنا متخصص في <b>PHP</b> باستخدام إطار عمل <b>Laravel</b>، و<b>JavaScript</b> مع <b>React</b>، و<b>Python</b>، مما يتيح لي تقديم حلول فعالة وعالية الجودة عبر طبقات تطوير الويب المختلفة.</p><p>بالإضافة إلى خبرتي المهنية، أمتلك خلفية أكاديمية حيث قمت بتدريس طلاب الجامعات تطوير تطبيقات الهاتف المحمول باستخدام <b>Flutter</b> و <b>Dart</b>. كما قمت بتقديم تدريب في مجالات <b>Secure DevOps</b>، و<b>الاختراق الأخلاقي (ethical hacking)</b>، و<b>اختبار الاختراق (penetration testing)</b>، جامعاً بين مهارات التطوير العملية وعقلية أمنية قوية.</p><p>إن هذا الجمع بين الخبرة المهنية والأكاديمية يمكنني من التكيف بسرعة، وحل المشكلات المعقدة، والمساهمة بفعالية في مشاريع متنوعة.</p>"
+                        },
+                        "ku": {
+                            "text": "<p>من <b>پەرەپێدەرێکی وێب-ی (full-stack)</b>-م و ئەزموونێکی باشم لە بنیاتنانی ئەپڵیکەیشنی فراوان و پارێزراودا هەیە، بە جەختکردنەوەی زۆر لەسەر پەرەپێدانی <b>باک-ئێند (backend)</b> و هەروەها ئەزموونم لە <b>فڕۆنت-ئێند (frontend)</b>-یشدا هەیە.</p><p>پسپۆڕیم لە <b>PHP</b> بە بەکارهێنانی فڕێیمۆرکی <b>Laravel</b>، و <b>JavaScript</b> لەگەڵ <b>React</b>، و <b>Python</b> هەیە، کە ڕێگەم پێدەدات چارەسەری کارا و کوالێتی بەرز لە ئاستە جیاوازەکانی پەرەپێدانی وێبدا پێشکەش بکەم.</p><p>جگە لە ئەزموونی کارکردنم لە پیشەسازییەکەدا، پاشخانێکی ئەکادیمیم هەیە کە تیایدا وانەی پەرەپێدانی ئەپڵیکەیشنی مۆبایلم بە قوتابیانی زانکۆ داوە بە بەکارهێنانی <b>Flutter</b> و <b>Dart</b>. هەروەها ڕاهێنانی زۆرم لە بوارەکانی <b>Secure DevOps</b>، و <b>ethical hacking</b>، و <b>penetration testing</b> داوە، کە مەهاراتی پەرەپێدانی کردەیی و هزرێکی بەهێزی ئاسایشی کۆمپیوتەری تێکەڵ کردووە.</p><p>ئەم تێکەڵەیە لە ئەزموونی پیشەیی و ئەکادیمی وا دەکات بتوانم بە خێرایی خۆم بگونجێنم، کێشە ئاڵۆزەکان چارەسەر بکەم و بە شێوەیەکی کاریگەر بەشدار بم لە پڕۆژە جیاوازەکاندا.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal **interests**"
+                },
+                "ar": {
+                    "title": "الاهتمامات **الشخصية**"
+                },
+                "ku": {
+                    "title": "خولیای **کەسی**"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-dumbbell",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Health & Fitness",
+                            "info": "Maintaining a healthy lifestyle through regular gym workouts and staying active."
+                        },
+                        "ar": {
+                            "title": "الصحة واللياقة البدنية",
+                            "info": "الحفاظ على نمط حياة صحي من خلال التمارين الرياضية المنتظمة والبقاء نشيطاً."
+                        },
+                        "ku": {
+                            "title": "تەندروستی و وەرزش",
+                            "info": "پاراستنی شێوازێکی ژیانی تەندروست لە ڕێگەی ڕاهێنانە وەرزشییەکان و چالاک مانەوە."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Coding & Programming",
+                            "info": "Spending free time exploring new coding ideas, building projects, and improving technical skills."
+                        },
+                        "ar": {
+                            "title": "البرمجة والتطوير",
+                            "info": "قضاء وقت الفراغ في استكشاف أفكار برمجية جديدة، وبناء المشاريع، وتطوير المهارات التقنية."
+                        },
+                        "ku": {
+                            "title": "کۆدینگ و پڕۆگرامینگ",
+                            "info": "بەسەربردنی کاتی بەتاڵ لە گەڕان بەدوای بیرۆکەی نوێ، بنیاتنانی پڕۆژە، و پەرەپێدانی مەهاراتی تەکنیكی."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-music",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Music",
+                            "info": "Enjoying chill music while driving as a way to relax and recharge."
+                        },
+                        "ar": {
+                            "title": "الموسيقى",
+                            "info": "الاستمتاع بالموسيقى الهادئة أثناء القيادة كوسيلة للاسترخاء وتجديد الطاقة."
+                        },
+                        "ku": {
+                            "title": "میوزیک",
+                            "info": "چێژبینین لە میوزیکێکی ئارام لە کاتی لێخوڕیندا وەک ڕێگەیەک بۆ حەوانەوە و نوێکردنەوەی وزە."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-soccer-ball",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Football",
+                            "info": "Playing football and following matches to stay engaged with the sport."
+                        },
+                        "ar": {
+                            "title": "كرة القدم",
+                            "info": "ممارسة كرة القدم ومتابعة المباريات للبقاء على اتصال مع الرياضة."
+                        },
+                        "ku": {
+                            "title": "تۆپی پێ",
+                            "info": "یاریکردنی تۆپی پێ و شوێنکەوتنی یارییەکان بۆ مانەوە لەگەڵ ئەم وەرزشەدا."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-robot",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "AI & Technology Exploration",
+                            "info": "Researching and experimenting with new tools and advancements in artificial intelligence."
+                        },
+                        "ar": {
+                            "title": "استكشاف الذكاء الاصطناعي والتكنولوجيا",
+                            "info": "البحث والتجريب باستخدام أدوات وتقنيات جديدة في عالم الذكاء الاصطناعي."
+                        },
+                        "ku": {
+                            "title": "ژیری دەستکرد و تەکنەلۆژیا",
+                            "info": "گەڕان و تاقی کردنەوەی ئامرازە نوێیەکان و پێشکەوتنەکانی ژیری دەستکرد."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-film",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Leisure & Family Time",
+                            "info": "Enjoying quality time by watching movies with my family."
+                        },
+                        "ar": {
+                            "title": "الترفيه والوقت العائلي",
+                            "info": "الاستمتاع بوقت عائلي مميز من خلال مشاهدة الأفلام مع عائلتي."
+                        },
+                        "ku": {
+                            "title": "کاتی حەوانەوە و خێزان",
+                            "info": "چێژبینین لە کاتێکی کوالێتی بە سەیرکردنی فیلم لەگەڵ خێزانەکەم."
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "disabled_articles": []
+}

@@ -1,0 +1,238 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "",
+            "title_long": "**Education &** Certifications"
+        },
+        "ar": {
+            "title": "التعليم",
+            "title_long_prefix": "",
+            "title_long": "**التعليم** والشهادات"
+        },
+        "ku": {
+            "title": "خوێندن",
+            "title_long_prefix": "",
+            "title_long": "**خوێندن** و بڕوانامەکان"
+        }
+    },
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Academic Background"
+                },
+                "ar": {
+                    "title": "الخلفية الأكاديمية"
+                },
+                "ku": {
+                    "title": "پاشخانی ئەکادیمی"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa fa-graduation-cap",
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "09/01/2020",
+                        "end": "02/02/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Master** of Software Engineering",
+                            "info": "Artificial Intelligence and Deep Learning - Salahaddin University-Erbil",
+                            "text": "<p>Advanced studies in AI/ML algorithms, deep learning architectures, and secure AI development practices.</p> <p class='mt-3'><b>Key Highlights:</b></p> <ul><li>Specialized in secure AI development methodologies</li><li>Research focus on cybersecurity in AI systems</li><li>Thesis on security-by-design in machine learning models</li></ul>",
+                            "tags": [
+                                "AI",
+                                "Deep Learning",
+                                "Cybersecurity"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**ماجستير** في هندسة البرمجيات",
+                            "info": "الذكاء الاصطناعي والتعلم العميق - جامعة صلاح الدين-أربيل",
+                            "text": "<p>دراسات متقدمة في خوارزميات الذكاء الاصطناعي وتعلم الآلة، وهياكل التعلم العميق، وممارسات تطوير الذكاء الاصطناعي الآمن.</p> <p class='mt-3'><b>أهم النقاط:</b></p> <ul><li>التخصص في منهجيات تطوير الذكاء الاصطناعي الآمن</li><li>التركيز في البحث على الأمن السيبراني في أنظمة الذكاء الاصطناعي</li><li>أطروحة حول \"الأمن من خلال التصميم\" في نماذج تعلم الآلة</li></ul>",
+                            "tags": [
+                                "الذكاء الاصطناعي",
+                                "التعلم العميق",
+                                "الأمن السيبراني"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**ماستەر** لە زانست",
+                            "info": "ژیری دەستکرد و فێربوونی قووڵ - زانکۆی سەڵاحەدین-هەولێر",
+                            "text": "<p>خوێندنی پێشکەوتوو لە ئەلگۆریتمەکانی AI/ML، تەلارسازییەکانی فێربوونی قووڵ، و پراکتیزەکردنی پەرەپێدانی ژیری دەستکردی پارێزراو.</p> <p class='mt-3'><b>خاڵە سەرەکییەکان:</b></p> <ul><li>پسپۆڕی لە میتۆدۆلۆژیای پەرەپێدانی AI پارێزراو</li><li>سەرنجی توێژینەوە لەسەر ئاسایشی ئەلیکترۆنی لە سیستەمەکانی AI</li><li>نامەی ماستەر لەسەر ئاسایش لە ڕێگەی دیزاینەوە لە مۆدێلەکانی فێربوونی ئۆتۆماتیکیدا</li></ul>",
+                            "tags": [
+                                "AI",
+                                "فێربوونی قووڵ",
+                                "ئاسایشی ئەلیکترۆنی"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa fa-university",
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "09/01/2011",
+                        "end": "06/01/2015"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** of Software Engineering",
+                            "info": "Software and Informatics Engineering - Salahaddin University-Erbil",
+                            "text": "<p>Comprehensive foundation in software engineering principles, programming, and system design.</p> <p class='mt-3'><b>Key Highlights:</b></p> <ul><li>Strong foundation in software engineering principles</li><li>Extensive programming and system design experience</li><li>Active participation in SEDAF for 4 consecutive years</li></ul>",
+                            "tags": [
+                                "Software Engineering",
+                                "System Design",
+                                "Programming"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**بكالوريوس** علوم",
+                            "info": "هندسة البرمجيات والمعلوماتية - جامعة صلاح الدين-أربيل",
+                            "text": "<p>أساس شامل في مبادئ هندسة البرمجيات، والبرمجة، وتصميم الأنظمة.</p> <p class='mt-3'><b>أهم النقاط:</b></p> <ul><li>أساس قوي في مبادئ هندسة البرمجيات</li><li>خبرة واسعة في البرمجة وتصميم الأنظمة</li><li>المشاركة النشطة في SEDAF لمدة 4 سنوات متتالية</li></ul>",
+                            "tags": [
+                                "هندسة البرمجيات",
+                                "تصميم الأنظمة",
+                                "البرمجة"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**بەکالۆریۆس** لە زانست",
+                            "info": "ئەندازیاری نەرمەکاڵا و زانیاری - زانکۆی سەڵاحەدین-هەولێر",
+                            "text": "<p>بناغەیەکی گشتگیر لە پرەنسیپەکانی ئەندازیاری نەرمەکاڵا، بەرنامەسازی، و دیزاینی سیستەم.</p> <p class='mt-3'><b>خاڵە سەرەکییەکان:</b></p> <ul><li>بناغەیەکی بەهێز لە پرەنسیپەکانی ئەندازیاری نەرمەکاڵا</li><li>ئەزموونی فراوان لە بەرنامەسازی و دیزاینی سیستەم</li><li>بەشداری چالاکانە لە SEDAF بۆ 4 ساڵی لەسەریەک</li></ul>",
+                            "tags": [
+                                "ئەندازیاری نەرمەکاڵا",
+                                "دیزاینی سیستەم",
+                                "بەرنامەسازی"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "certifications",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Professional Certifications & Training"
+                },
+                "ar": {
+                    "title": "الشهادات والتدريبات المهنية"
+                },
+                "ku": {
+                    "title": "بڕوانامە و ڕاهێنانی پیشەیی"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa fa-certificate",
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "12/01/2019",
+                        "end": "12/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**E-learning** and Additive Manufacturing",
+                            "info": "Bergakadenie Freiberg - Freiberg, Germany",
+                            "text": "Advanced training in OPAL e-learning platform, video creation, 3D scanning, and 3D printing technologies.",
+                            "tags": [
+                                "OPAL",
+                                "3D Printing"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**التعلم الإلكتروني** والتصنيع المضاف",
+                            "info": "Bergakadenie Freiberg - فرايبيرغ، ألمانيا",
+                            "text": "تدريب متقدم على منصة التعليم الإلكتروني OPAL، وصناعة الفيديو، والمسح ثلاثي الأبعاد، وتقنيات الطباعة ثلاثية الأبعاد.",
+                            "tags": [
+                                "OPAL",
+                                "الطباعة ثلاثية الأبعاد"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**فێربوونی ئەلیکترۆنی** و بەرهەمهێنانی زیادکەر",
+                            "info": "Bergakadenie Freiberg - فرایبێرگ، ئەڵمانیا",
+                            "text": "ڕاهێنانی پێشکەوتوو لە پلاتفۆرمی فێربوونی ئەلیکترۆنی OPAL، دروستکردنی ڤیدیۆ، سکانکردنی سێ ڕەهەندی، و تەکنەلۆژیای چاپکردنی سێ ڕەهەندی.",
+                            "tags": [
+                                "OPAL",
+                                "چاپی سێ ڕەهەندی"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa fa-database",
+                        "faColors": {
+                            "bg": "#222",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "10/01/2017",
+                        "end": "10/01/2017"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Mobile Data Collection** and Information Management",
+                            "info": "IMMAP Organization - Iraqi Kurdistan",
+                            "text": "Specialized training in Drupal, Power BI, and Adobe Illustrator for data management and visualization.",
+                            "tags": [
+                                "Drupal",
+                                "Power BI",
+                                "Data Mgmt"
+                            ]
+                        },
+                        "ar": {
+                            "title": "**جمع البيانات عبر الهاتف** وإدارة المعلومات",
+                            "info": "منظمة IMMAP - كوردستان العراق",
+                            "text": "تدريب متخصص في Drupal و Power BI و Adobe Illustrator لإدارة البيانات وتصورها.",
+                            "tags": [
+                                "Drupal",
+                                "Power BI",
+                                "إدارة البيانات"
+                            ]
+                        },
+                        "ku": {
+                            "title": "**کۆکردنەوەی زانیاری بە مۆبایل** و بەڕێوەبردنی زانیاری",
+                            "info": "ڕێکخراوی IMMAP - کوردستانی عێراق",
+                            "text": "ڕاهێنانی پسپۆڕی لە Drupal، Power BI، و Adobe Illustrator بۆ بەڕێوەبردنی زانیاری و پیشاندانی زانیارییەکان.",
+                            "tags": [
+                                "Drupal",
+                                "Power BI",
+                                "بەڕێوەبردنی زانیاری"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

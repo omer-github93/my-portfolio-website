@@ -1,0 +1,100 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+        "ar": {
+            "title": "اتصل بنا",
+            "title_long_prefix": "لا تتردد في",
+            "title_long": "**تواصل** معي"
+        },
+        "ku": {
+            "title": "پەیوەندی",
+            "title_long_prefix": "دوودڵ مەبە لە",
+            "title_long": "**پەیوەندی** کردن بە منەوە"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "ar": {"title": "أرسل لي **رسالة**"},
+                "ku": {"title": "**نامەیەکم** بۆ بنێرە"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "ar": {"title": "أو إذا كنت **تفضل**..."},
+                "ku": {"title": "یان ئەگەر **پێت باشە**..."}
+            },
+
+            "items": [
+                {
+                    "value": "omer.hamajan@gmail.com",
+                    "links": [
+                        {"href": "mailto:omer.hamajan@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "ar": {"title": "البريد الإلكتروني"},
+                        "ku": {"title": "ئیمەیڵ"}
+                    }
+                },
+
+                {
+                    "value": "Omer Tariq",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/omer-tariq-2041993/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"},
+                        "ar": {"title": "لينكد إن"},
+                        "ku": {"title": "ڵینکدین"}
+                    }
+                },
+
+                {
+                    "value": "@omer-github93",
+                    "links": [
+                        {"href": "https://github.com/omer-github93"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "GitHub"},
+                        "ar": {"title": "جيت هاب"},
+                        "ku": {"title": "گیت-هاب"}
+                    }
+                }
+            ]
+        }
+    ]
+}

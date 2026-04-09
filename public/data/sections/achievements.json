@@ -1,0 +1,270 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+        "es": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        },
+        "fr": {
+            "title": "Réalis",
+            "title_menu": "Réalisations",
+            "title_long_prefix": "Voici",
+            "title_long": "Mes **Réalisations**"
+        },
+        "ko": {
+            "title": "경력 성과",
+            "title_menu": "경력 성과",
+            "title_long_prefix": "다음은",
+            "title_long": "**경력 성과**입니다"
+        },
+        "ar": {
+            "title": "الجوائز",
+            "title_menu": "الإنجازات",
+            "title_long_prefix": "إليكم",
+            "title_long": "**إنجازاتي** المهنية"
+        },
+        "ku": {
+            "title": "خەڵاتەکان",
+            "title_menu": "دەستکەوتەکان",
+            "title_long_prefix": "لێرەدا",
+            "title_long": "پیشەیی **دەستکەوتە**"
+        }
+    },
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Certifications"
+                },
+                "es": {
+                    "title": "Certificaciones"
+                },
+                "fr": {
+                    "title": "Certifications"
+                },
+                "ko": {
+                    "title": "인증서"
+                },
+                "ar": {
+                    "title": "الشهادات"
+                },
+                "ku": {
+                    "title": "بڕوانامەکان"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-life-ring",
+                        "faColors": {
+                            "bg": "#326CE5",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "12/01/2020",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "see_certification",
+                            "href": "https://www.linuxfoundation.org/"
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "The **Linux Foundation**",
+                            "text": "Certified Kubernetes Administrator (CKA)"
+                        },
+                        "es": {
+                            "text": "Administrador Kubernetes Certificado (CKA)"
+                        },
+                        "fr": {
+                            "text": "Administrateur Kubernetes Certifié (CKA)"
+                        },
+                        "ko": {
+                            "text": "인증된 쿠버네티스 관리자 (CKA)"
+                        },
+                        "ar": {
+                            "title": "مؤسسة **لينكس**",
+                            "text": "مدير كوبيرنيتيس معتمد (CKA)"
+                        },
+                        "ku": {
+                            "title": "دامەزراوەی **لاینێکس**",
+                            "text": "بەڕێوەبەری کوبەرنێتسی بڕوانامەدار (CKA)"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-aws",
+                        "faColors": {
+                            "bg": "#FFD700",
+                            "fill": "#111"
+                        }
+                    },
+                    "dates": {
+                        "start": "05/05/2021",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "see_certification",
+                            "href": "https://www.aws.com/"
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Amazon** Web Services",
+                            "text": "AWS Certified Solutions Architect – Associate"
+                        },
+                        "es": {
+                            "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
+                        },
+                        "fr": {
+                            "text": "Architecte de Solutions Certifié AWS – Associé"
+                        },
+                        "ko": {
+                            "text": "AWS 인증 솔루션 아키텍트 – 어소시에이트"
+                        },
+                        "ar": {
+                            "title": "**أمازون** لخدمات الويب",
+                            "text": "معمار حلول معتمد من AWS – المستوى المساعد"
+                        },
+                        "ku": {
+                            "title": "خزمەتگوزارییەکانی وێبی **ئەمەزۆن**",
+                            "text": "تەلارسازی چارەسەری بڕوانامەداری AWS – ئاستی یاریدەدەر"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-laravel",
+                        "faColors": {
+                            "bg": "#FF2D20",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "dates": {
+                        "start": "06/01/2024",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "see_certification",
+                            "href": "https://certification.laravel.com/"
+                        }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Laravel**",
+                            "text": "Laravel Certified Developer"
+                        },
+                        "ar": {
+                            "title": "**لارافيل**",
+                            "text": "مطور لارافيل معتمد"
+                        },
+                        "ku": {
+                            "title": "**لارافێڵ**",
+                            "text": "پەرەپێدەری بڕوانامەداری لارافێڵ"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Awards"
+                },
+                "es": {
+                    "title": "Premios"
+                },
+                "fr": {
+                    "title": "Récompenses"
+                },
+                "ko": {
+                    "title": "수상 내역"
+                },
+                "ar": {
+                    "title": "الجوائز"
+                },
+                "ku": {
+                    "title": "خەڵاتەکان"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-trophy"
+                    },
+                    "dates": {
+                        "start": "07/01/2017",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Social Innovation Hackathon** - 2nd Place",
+                            "info": "Re:coded, Zain, IOM - Erbil, Iraqi Kurdistan",
+                            "text": "Knowledge Hub project - Offline intranet for IDP and refugee camps education."
+                        },
+                        "ar": {
+                            "title": "**هاكاثون الابتكار الاجتماعي** - المركز الثاني",
+                            "info": "Re:coded، زين، IOM - أربيل، كوردستان العراق",
+                            "text": "مشروع Knowledge Hub - شبكة داخلية غير متصلة بالإنترنت لتعليم النازحين ومخيمات اللاجئين."
+                        },
+                        "ku": {
+                            "title": "**هاکاتۆنی داهێنانی کۆمەڵایەتی** - پلەی دووەم",
+                            "info": "Re:coded, Zain, IOM - هەولێر، کوردستانی عێراق",
+                            "text": "پڕۆژەی Knowledge Hub - ئینترانێتێکی ئۆفلاین بۆ پەروەردەی ئاوارەکان و کەمپی پەنابەران."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "fa": "fa-solid fa-trophy"
+                    },
+                    "dates": {
+                        "start": "07/01/2017",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Startup Boot Camp** - 2nd Place",
+                            "info": "Five One Labs - Erbil, Iraqi Kurdistan",
+                            "text": "On Time Under Budget - Freelancer platform for companies and organizations."
+                        },
+                        "ar": {
+                            "title": "**معسكر الشركات الناشئة** - المركز الثاني",
+                            "info": "Five One Labs - أربيل، كوردستان العراق",
+                            "text": "On Time Under Budget - منصة عمل حر للشركات والمنظمات."
+                        },
+                        "ku": {
+                            "title": "**کامپی پەرەپێدانی ستارتئەپ** - پلەی دووەم",
+                            "info": "Five One Labs - هەولێر، کوردستانی عێراق",
+                            "text": "On Time Under Budget - پلاتفۆرمی فریلانسەر بۆ کۆمپانیا و ڕێکخراوەکان."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

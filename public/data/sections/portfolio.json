@@ -1,0 +1,687 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "A showcase of my recent",
+            "title_long": "**Work and Side Projects**",
+            "empty_results": "No projects found yet!"
+        },
+        "ar": {
+            "title": "بورتفۆلیۆ",
+            "title_long_prefix": "عرض لأحدث",
+            "title_long": "**أعمالي ومشاريعي الجانبية**",
+            "empty_results": "لم يتم العثور على مشاريع بعد!"
+        },
+        "ku": {
+            "title": "پڕۆژە دیارەکان",
+            "title_long_prefix": "نمایشکردنی کارەکانم و",
+            "title_long": "**پڕۆژە لاوەکییەکانم**",
+            "empty_results": "هیچ پڕۆژەیەک نەدۆزرایەوە!"
+        }
+    },
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+            "categories": [
+                {
+                    "id": "web-app",
+                    "locales": {
+                        "en": {
+                            "singular": "Web App",
+                            "plural": "Web Apps"
+                        },
+                        "ar": {
+                            "singular": "تطبيق ويب",
+                            "plural": "تطبيقات ويب"
+                        },
+                        "ku": {
+                            "singular": "وێب ئەپ",
+                            "plural": "وێب ئەپەکان"
+                        }
+                    }
+                },
+                {
+                    "id": "website",
+                    "locales": {
+                        "en": {
+                            "singular": "Website",
+                            "plural": "Websites"
+                        },
+                        "ar": {
+                            "singular": "موقع إلكتروني",
+                            "plural": "مواقع إلكترونية"
+                        },
+                        "ku": {
+                            "singular": "وێب سایت",
+                            "plural": "وێب سایتەکان"
+                        }
+                    }
+                },
+                {
+                    "id": "mobile-app",
+                    "locales": {
+                        "en": {
+                            "singular": "Mobile App",
+                            "plural": "Mobile Apps"
+                        },
+                        "ar": {
+                            "singular": "تطبيق موبايل",
+                            "plural": "تطبيقات موبايل"
+                        },
+                        "ku": {
+                            "singular": "مۆبایل ئەپ",
+                            "plural": "مۆبایل ئەپەکان"
+                        }
+                    }
+                },
+                {
+                    "id": "cybersecurity",
+                    "locales": {
+                        "en": {
+                            "singular": "Cybersecurity",
+                            "plural": "Cybersecurity"
+                        },
+                        "ar": {
+                            "singular": "الأمن السيبراني",
+                            "plural": "الأمن السيبراني"
+                        },
+                        "ku": {
+                            "singular": "سایبەر سیکوێرتی",
+                            "plural": "سایبەر سیکوێرتی"
+                        }
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "categoryId": "web-app",
+                    "icon": {
+                        "img": "images/pictures/qr-code-icon.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/omer-github93/smart-qr-quiz-management-system"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/projects/QR-Code-admin-panel-screenshot-1.png",
+                                "images/projects/QR-Code-admin-panel-screenshot-2.png",
+                                "images/projects/QR-Code-front-screenshot-3.png",
+                                "images/projects/QR-Code-front-screenshot-4.png",
+                                "images/projects/QR-Code-front-screenshot-5.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Smart QR Quiz Management System",
+                            "type": "Personal Project",
+                            "info": "March, 2026",
+                            "text": "A full-stack web application designed to streamline quiz management and enhance user interaction through QR-based access.",
+                            "details": "<p>Built using Laravel for the backend and React for the frontend, with Tailwind CSS for responsive UI design. The system integrates QR code generation using Simple QrCode to enable quick and seamless quiz access.</p> <h6 class='mt-4 fw-bold'>Key Features:</h6> <ul class='mt-3'><li>QR code-based quiz access for fast and user-friendly interaction</li><li>Full quiz management system (create, update, delete quizzes and questions)</li><li>Real-time or instant quiz participation via QR scanning</li><li>Responsive and modern UI built with reusable components</li><li>Secure backend API for handling quiz logic and data processing</li><li>Role-based access control for administrators and users</li></ul>",
+                            "tags": [
+                                "Laravel",
+                                "React",
+                                "Tailwind CSS",
+                                "QR Code"
+                            ]
+                        },
+                        "ar": {
+                            "title": "نظام إدارة الاختبارات الذكي بـ QR",
+                            "type": "مشروع شخصي",
+                            "info": "يناير، 2025",
+                            "text": "تطبيق ويب متكامل مصمم لتبسيط إدارة الاختبارات وتحسين تفاعل المستخدم من خلال الوصول عبر QR.",
+                            "details": "<p>تم بناؤه باستخدام Laravel للخلفية و React للواجهة الأمامية، مع Tailwind CSS لتصميم واجهة مستخدم سريعة الاستجابة. يدمج النظام إنشاء رموز QR لتمكين الوصول السريع والسلس للاختبارات.</p> <h6 class='mt-4 fw-bold'>الميزات الرئيسية:</h6> <ul class='mt-3'><li>الوصول إلى الاختبار عبر رمز QR لتفاعل سريع وسهل</li><li>نظام إدارة اختبارات كامل (إنشاء، تحديث، حذف الاختبارات والأسئلة)</li><li>المشاركة في الاختبار في الوقت الفعلي أو الفوري عبر مسح QR</li><li>واجهة مستخدم مستجابة وحديثة مبنية بمكونات قابلة لإعادة الاستخدام</li><li>واجهة برمجة تطبيقات خلفية آمنة لمعالجة منطق الاختبار والبيانات</li><li>التحكم في الوصول القائم على الأدوار للمسؤولين والمستخدمين</li></ul>",
+                            "tags": [
+                                "Laravel",
+                                "React",
+                                "Tailwind CSS",
+                                "QR Code"
+                            ]
+                        },
+                        "ku": {
+                            "title": "سیستەمی بەڕێوەبردنی کۆیزی زیرەکی QR",
+                            "type": "پڕۆژەی کەسی",
+                            "info": "کانوونی دووەم، ٢٠٢٥",
+                            "text": "ئەپڵیکەیشنێکی وێبی تەواو کە دیزاین کراوە بۆ ئاسانکردنی بەڕێوەبردنی کۆیز و باشترکردنی کارلێکی بەکارهێنەر لە ڕێگەی دەستگەیشتن بە QR.",
+                            "details": "<p>بە بەکارهێنانی Laravel بۆ باکئێند و React بۆ فرۆنتئێند دروستکراوە، لەگەڵ Tailwind CSS بۆ دیزاینی ڕووکار. سیستەمەکە دروستکردنی کۆدی QR تێهەڵکێش دەکات بۆ کارئاسانی کۆیزەکان.</p> <h6 class='mt-4 fw-bold'>تایبەتمەندییە سەرەکییەکان:</h6> <ul class='mt-3'><li>دەستگەیشتن بە کۆیز لە ڕێگەی کۆدی QR بۆ کارلێکی خێرا</li><li>سیستەمی تەواوی بەڕێوەبردنی کۆیز (دروستکردن، نوێکردنەوە، سڕینەوەی کۆیز و پرسیارەکان)</li><li>بەشداری کردن لە کۆیز لە کاتی ڕاستەقینەدا لە ڕێگەی سکانکردنی QR</li><li>ڕووکارێکی مۆدێرن کە بە پێکهاتەی دووبارە بەکارهێنراو دروستکراوە</li><li>باکئێندێکی پارێزراو بۆ مامەڵەکردن لەگەڵ لۆژیکی کۆیز و داتاکان</li><li>کۆنتڕۆڵکردنی دەستگەیشتن بەپێی ڕۆڵ بۆ بەڕێوەبەران و بەکارهێنەران</li></ul>",
+                            "tags": [
+                                "Laravel",
+                                "React",
+                                "Tailwind CSS",
+                                "QR Code"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "cybersecurity",
+                    "icon": {
+                        "img": "images/pictures/python-logo.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/omer-github93/pentesting-projects"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Security Automation & Pentesting Tools",
+                            "type": "Personal Project",
+                            "info": "Feb, 2026",
+                            "text": "Developing automated security scripts and penetration testing tools using Python for ethical hacking purposes.",
+                            "details": "<p>A collection of Python-based network security tools for ethical hacking and penetration testing, designed for educational purposes. These scripts include network scanners, vulnerability assessments, and automated data processing tools focused on modular and scalable security auditing.</p> <h6 class='mt-4 fw-bold'>Technical Focus:</h6> <ul class='mt-3'><li>Network security auditing and scanning automation</li><li>Subdomain discovery and information gathering</li><li>Automated security reporting and data export</li><li>Scripting for vulnerability identification and mitigation</li></ul>",
+                            "tags": [
+                                "Python",
+                                "Security",
+                                "Hacking",
+                                "Automation"
+                            ]
+                        },
+                        "ar": {
+                            "title": "أدوات أتمتة الأمن واختبار الاختراق",
+                            "type": "مشروع شخصي",
+                            "info": "فبراير، ٢٠٢٦",
+                            "text": "تطوير سكربتات أمنية وأدوات اختبار اختراق مؤتمتة باستخدام بايثون لأغراض الاختراق الأخلاقي.",
+                            "details": "<p>مجموعة من الأدوات الأمنية المبنية على بايثون لاختبار اختراق الشبكات، صممت لأغراض تعليمية. تشمل هذه السكربتات أدوات لفحص الشبكات، وتقييم الثغرات الأمنية، وأتمتة معالجة البيانات الأمنية.</p> <h6 class='mt-4 fw-bold'>التركيز التقني:</h6> <ul class='mt-3'><li>أتمتة فحص وتدقيق أمن الشبكات</li><li>اكتشاف النطاقات الفرعية وجمع المعلومات</li><li>تصدير التقارير الأمنية المؤتمتة</li><li>البرمجة لغرض تحديد الثغرات ومعالجتها</li></ul>",
+                            "tags": [
+                                "Python",
+                                "الأمن",
+                                "Hacking",
+                                "الأتمتة"
+                            ]
+                        },
+                        "ku": {
+                            "title": "ئامرازەکانی ئۆتۆماتیککردنی ئاساییش و پێنتیستینت",
+                            "type": "پڕۆژەی کەسی",
+                            "info": "فێبرایەر، ٢٠٢٦",
+                            "text": "پەرەپێدانی سکریپتی ئاساییشی ئۆتۆماتیک و ئامرازەکانی پێنتیستینت بە بەکارهێنانی Python بۆ مەبەستی هاککردنی ئەخلاقی.",
+                            "details": "<p>کۆمەڵێک ئامرازی ئاساییشی تۆڕ کە لەسەر بنەمای Python دروستکراوە بۆ هاککردنی ئەخلاقی و پێنتیستت، کە بۆ مەبەستی پەروەردەیی دیزاین کراوە. ئەم سکریپتانە بریتین لە ئەنجامدانی پشکنینی تۆڕ، هەڵسەنگاندنی لاوازییەکان، و پشکنینی ئۆتۆماتیکی.</p> <h6 class='mt-4 fw-bold'>تایبەتمەندییە تەکنیکییەکان:</h6> <ul class='mt-3'><li>ئۆتۆماتیککردنی پشکنینی ئاساییشی تۆڕ</li><li>دۆزینەوەی سەبۆمەین و کۆکردنەوەی زانیاری</li><li>دروستکردنی ڕاپۆرتی ئاساییشی ئۆتۆماتیک</li><li>سکریپتکردن بۆ دۆزینەوەی لاوازییەکان</li></ul>",
+                            "tags": [
+                                "Python",
+                                "Security",
+                                "Hacking",
+                                "Automation"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "web-app",
+                    "icon": {
+                        "img": "images/pictures/invoice-icon.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/omer-github93/invoice-generator"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Invoice Management System",
+                            "type": "Personal Project",
+                            "info": "Nov, 2025",
+                            "text": "A modern, full-stack invoice management application built using Laravel and React, designed to streamline invoicing workflows with a secure and scalable architecture.",
+                            "details": "<p>A modern, full-stack invoice management application built using Laravel and React, designed to streamline invoicing workflows with a secure and scalable architecture. The system features robust authentication, efficient data handling, and a fully responsive user interface optimized for usability across devices.</p> <h6 class='mt-4 fw-bold'>Technical Stack:</h6> <div class='row mt-3'> <div class='col-md-6 mb-3'> <div class='fw-bold text-highlight mb-2'>Backend</div> <ul> <li><strong>Framework:</strong> Laravel 12 - PHP web framework</li> <li><strong>Authentication:</strong> Laravel Sanctum - API token authentication</li> <li><strong>Language:</strong> PHP 8.2+</li> <li><strong>Database:</strong> SQLite (default) / MySQL / PostgreSQL</li> </ul> </div> <div class='col-md-6'> <div class='fw-bold text-highlight mb-2'>Frontend</div> <ul> <li><strong>Library:</strong> React 19 - JavaScript UI library</li> <li><strong>Routing:</strong> React Router DOM - Client-side routing</li> <li><strong>HTTP Client:</strong> Axios - Promise-based HTTP client</li> <li><strong>Styling:</strong> CSS3 with modern animations and transitions</li> </ul> </div> </div>",
+                            "tags": [
+                                "Laravel",
+                                "React",
+                                "MySQL"
+                            ]
+                        },
+                        "ar": {
+                            "title": "نظام إدارة الفواتير",
+                            "type": "مشروع شخصي",
+                            "info": "نوفمبر، ٢٠٢٥",
+                            "text": "تطبيق متكامل لإدارة الفواتير مبني باستخدام لارافيل ورياكت، مصمم لتبسيط سير عمل الفواتير بهندسة آمنة وقابلة للتوسع.",
+                            "details": "<p>تطبيق متكامل لإدارة الفواتير مبني باستخدام لارافيل ورياكت، مصمم لتبسيط سير عمل الفواتير بهندسة آمنة وقابلة للتوسع. يتميز النظام بمصادقة قوية، ومعالجة فعالة للبيانات، وواجهة مستخدم متجاوبة بالكامل مصممة لسهولة الاستخدام عبر الأجهزة.</p> <h6 class='mt-4 fw-bold'>التقنيات المستخدمة:</h6> <div class='row mt-3'> <div class='col-md-6 mb-3'> <div class='fw-bold text-highlight mb-2'>الخلفية (Backend)</div> <ul> <li><strong>ـ Framework:</strong> لارافيل ١٢ - إطار عمل PHP</li> <li><strong>ـ Authentication:</strong> لارافيل Sanctum - مصادقة API</li> <li><strong>ـ Language:</strong> PHP 8.2+</li> <li><strong>ـ Database:</strong> SQLite (افتراضي) / MySQL / PostgreSQL</li> </ul> </div> <div class='col-md-6'> <div class='fw-bold text-highlight mb-2'>الواجهة الأمامية (Frontend)</div> <ul> <li><strong>ـ Library:</strong> رياكت ١٩ - مكتبة واجهة مستخدم جافاسكريبت</li> <li><strong>ـ Routing:</strong> React Router DOM - التوجيه من جهة العميل</li> <li><strong>ـ HTTP Client:</strong> Axios - عميل HTTP</li> <li><strong>ـ Styling:</strong> CSS3 مع رسوم متحركة مريحة</li> </ul> </div> </div>",
+                            "tags": [
+                                "لارافيل",
+                                "رياكت",
+                                "الفواتير",
+                                "Full-Stack"
+                            ]
+                        },
+                        "ku": {
+                            "title": "سیستەمی بەڕێوەبردنی ئینڤۆیس",
+                            "type": "پڕۆژەی کەسی",
+                            "info": "نۆڤەمبەر، ٢٠٢٥",
+                            "text": "ئەپڵیکەیشنێکی وێبی تەواو کە بە لارافێڵ و ریاکت دروستکراوە، دیزاین کراوە بۆ کارئاسانی بەڕێوەبردنی ئینڤۆیسەکان لەگەڵ ئەندازیارییەکی پارێزراو.",
+                            "details": "<p>ئەپڵیکەیشنێکی وێبی تەواو کە بە لارافێڵ و ریاکت دروستکراوە، دیزاین کراوە بۆ کارئاسانی بەڕێوەبردنی ئینڤۆیسەکان لەگەڵ ئەندازیارییەکی پارێزراو. سیستەمەکە چەندین تایبەتمەندی وەک پاراستنی بەهێز، مامەڵەکردنی کارا لەگەڵ داتاکان، و ڕووکارێکی مۆدێرن و گونجاو بۆ هەموو ئامێرەکان لەخۆدەگرێت.</p> <h6 class='mt-4 fw-bold'>تەکنەلۆژیاکان:</h6> <div class='row mt-3'> <div class='col-md-6 mb-3'> <div class='fw-bold text-highlight mb-2'>باکئێند (Backend)</div> <ul> <li><strong>ـ Framework:</strong> لارافێڵ ١٢ - فریمۆرکی PHP</li> <li><strong>ـ Authentication:</strong> لارافێڵ Sanctum - پاراستنی ئەپڵیکەیشن</li> <li><strong>ـ Language:</strong> PHP 8.2+</li> <li><strong>ـ Database:</strong> SQLite (افتراضي) / MySQL / PostgreSQL</li> </ul> </div> <div class='col-md-6'> <div class='fw-bold text-highlight mb-2'>فرۆنتئێند (Frontend)</div> <ul> <li><strong>ـ Library:</strong> ریاکت ١٩ - کتێبخانەی واژە و گەشەپێدان</li> <li><strong>ـ Routing:</strong> React Router DOM - ڕێڕەوی وێبگەڕ</li> <li><strong>ـ HTTP Client:</strong> Axios</li> <li><strong>ـ Styling:</strong> CSS3 لەگەڵ جوڵەی مۆدێرن</li> </ul> </div> </div>",
+                            "tags": [
+                                "Laraven",
+                                "React",
+                                "Invoice",
+                                "Full-Stack"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "website",
+                    "icon": {
+                        "img": "images/pictures/hedz-logo.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://hedzco.de/"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Hedz GmbH Corporate Website",
+                            "type": "Business Project",
+                            "info": "Sep, 2025",
+                            "text": "Empowering wellness through innovation and German excellence in the pharmaceutical and skincare industries.",
+                            "details": "<p>Hedz GmbH is a trusted German company at the forefront of the health, wellness, and pharmaceutical industries. This high-performance <strong>static website</strong> was developed using <strong>HTML, CSS, and JavaScript</strong>, reflecting the brand's foundation built on precision, quality, and innovation. It serves as a digital gateway for European-standard pharmaceutical and skincare solutions.</p> <h6 class='mt-4 fw-bold'>Technical Focus:</h6> <ul class='mt-3'><li>High-performance static site architecture for extreme reliability</li><li>Clean and modular code structure reflecting German precision</li><li>Responsive design aligned with modern European corporate standards</li><li>Optimized performance for global strategic partnerships and trust building</li></ul>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "Pharmaceutical"
+                            ]
+                        },
+                        "ar": {
+                            "title": "موقع شركة هيدز جي إم بي إتش",
+                            "type": "مشروع تجاري",
+                            "info": "سبتمبر، ٢٠٢٥",
+                            "text": "تمكين الرفاهية من خلال الابتكار والتميز الألماني في صناعات الأدوية والعناية بالبشرة.",
+                            "details": "<p>Hedz GmbH هي شركة ألمانية موثوقة في طليعة صناعات الصحة والرفاهية والأدوية. تم تطوير هذا <strong>الموقع الثابت</strong> عالي الأداء باستخدام <strong>HTML و CSS و JavaScript</strong>، مما يعكس أسس الشركة القائمة على الدقة والجودة والابتكار الألماني.</p> <h6 class='mt-4 fw-bold'>التركيز التقني:</h6> <ul class='mt-3'><li>بنية موقع ثابت عالية الأداء لضمان الموثوقية القصوى</li><li>هيكل برمجيات نظيف يعكس الدقة الألمانية</li><li>تصميم مستجيب يتماشى مع المعايير المؤسسية الأوروبية الحديثة</li><li>أداء محسن لبناء الثقة في الشراكات الاستراتيجية العالمية</li></ul>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "أدوية"
+                            ]
+                        },
+                        "ku": {
+                            "title": "وێب سایتی کۆمپانیای هێدز GmbH",
+                            "type": "پڕۆژەی بازرگانی",
+                            "info": "ئەیلوول، ٢٠٢٥",
+                            "text": "بەهێزکردنی تەندروستی لە ڕێگەی داهێنان و نایابی ئەڵمانی لە پیشەسازییەکانی دەرمان و چاودێری پێست.",
+                            "details": "<p>کۆمپانیای Hedz GmbH کۆمپانیایەکی جێی متمانەی ئەڵمانییە لە پێشەنگی پیشەسازییەکانی تەندروستی و دەرمانسازیدا. ئەم <strong>وێب سایتە ستاتیکە</strong> بە بەکارهێنانی <strong>HTML، CSS، و JavaScript</strong> پەرەی پێدراوە، کە ڕەنگدانەوەی وردەکاری و کوالیتی و داهێنانی ئەڵمانییە.</p> <h6 class='mt-4 fw-bold'>تایبەتمەندییە تەکنیکییەکان:</h6> <ul class='mt-3'><li>پێکهاتەی وێب سایتی ستاتیک بۆ دابینکردنی متمانەی تەواو</li><li>کۆدکردنی ڕێک و پێک کە ڕەنگدانەوەی وردەکاری ئەڵمانییە</li><li>دیزاینی وەڵامدەر بەپێی ستانداردە مۆدێرنەکانی ئەوروپا</li><li>باشترکردنی خێرایی بۆ دروستکردنی متمانە لەگەڵ هاوبەشە جیهانییەکان</li></ul>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "تەندروستی"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "web-app",
+                    "icon": {
+                        "img": "images/pictures/zoning-app-logo.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Zoning Management Web Application",
+                            "type": "Business Project",
+                            "info": "Feb, 2025",
+                            "text": "Developed a custom web-based zoning management system for Arminas Luxury to efficiently manage and visualize customer data.",
+                            "details": "<p>The application was built using PHP and MySQL, providing an interactive platform for tracking customer information through both tabular views and geospatial mapping.</p> <h6 class='mt-4 fw-bold'>Key Features:</h6> <ul class='mt-3'><li>Interactive customer data management with advanced filtering and search capabilities</li><li>Integrated map visualization for location-based tracking and zoning insights</li><li>Dynamic dashboard with statistical summaries and data-driven charts</li><li>Custom report generation with export functionality (Excel format)</li><li>User-friendly interface designed for efficient data analysis and decision-making</li></ul>",
+                            "tags": [
+                                "PHP",
+                                "MySQL",
+                                "Google Map",
+                                "Analytics"
+                            ]
+                        },
+                        "ar": {
+                            "title": "تطبيق ويب لإدارة المناطق – Arminas Luxury",
+                            "type": "مشروع تجاري",
+                            "info": "Feb, 2025",
+                            "text": "تم تطوير نظام مخصص لإدارة المناطق عبر الويب لشركة Arminas Luxury لإدارة وتصور بيانات العملاء بكفاءة.",
+                            "details": "<p>تم بناء التطبيق باستخدام PHP و MySQL، مما يوفر منصة تفاعلية لتتبع معلومات العملاء من خلال كل من العروض الجدولية والخرائط الجغرافية المكانية.</p> <h6 class='mt-4 fw-bold'>الميزات الرئيسية:</h6> <ul class='mt-3'><li>إدارة بيانات العملاء التفاعلية مع إمكانيات تصفية وبحث متقدمة</li><li>تصور خارطة متكامل لتتبع الموقع الجغرافي ورؤى المناطق</li><li>لوحة تحكم ديناميكية مع ملخصات إحصائية ورسوم بيانية مستندة إلى البيانات</li><li>إنشاء تقارير مخصصة مع وظيفة التصدير (تنسيق Excel)</li><li>واجهة سهلة الاستخدام مصممة لتحليل البيانات واتخاذ القرار بكفاءة</li></ul>",
+                            "tags": [
+                                "PHP",
+                                "MySQL",
+                                "Google Map",
+                                "تحليل البيانات"
+                            ]
+                        },
+                        "ku": {
+                            "title": "وێب ئەپی بەڕێوەبردنی زۆنینگ – Arminas Luxury",
+                            "type": "پڕۆژەی بازرگانی",
+                            "info": "Feb, 2025",
+                            "text": "سیستەمێکی تایبەتی بەڕێوەبردنی زۆنینگ لەسەر وێب بۆ Arminas Luxury پەرەپێدراوە بۆ بەڕێوەبردن و نیشاندانی داتاکانی کڕیاران بە شێوەیەکی کارا.",
+                            "details": "<p>ئەپڵیکەیشنەکە بە بەکارهێنانی PHP و MySQL دروستکراوە، پلاتفۆرمێکی کارلێکەر دابین دەکات بۆ شوێنکەوتنی زانیارییەکانی کڕیار لە ڕێگەی نیشاندانی خشتە و نەخشەی جوگرافییەوە.</p> <h6 class='mt-4 fw-bold'>تایبەتمەندییە سەرەکییەکان:</h6> <ul class='mt-3'><li>بەڕێوەبردنی کارلێکەری داتاکانی کڕیار بە توانای فلتەرکردن و گەڕانی پێشکەوتوو</li><li>نیشاندانی نەخشەی تێهەڵکێشکراو بۆ شوێنکەوتنی شوێن و تێڕوانینەکانی زۆنینگ</li><li>داشبۆردی داینامیکی بە کورتەی ئاماری و چارتی داتاکان</li><li>دروستکردنی ڕاپۆرتی تایبەت بە توانای ناردنەدەر (بە شێوەی Excel)</li><li>ڕووکارێکی ئاسان بۆ بەکارهێنەر کە دیزاین کراوە بۆ شیکردنەوەی داتاکان و بڕیاردانی کارا</li></ul>",
+                            "tags": [
+                                "PHP",
+                                "MySQL",
+                                "Google Map",
+                                "شیکردنەوەی داتا"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "website",
+                    "icon": {
+                        "img": "images/pictures/dermivy-ogo.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://dermivy.com/"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Dermivy Skincare & Wellness",
+                            "type": "Business Project",
+                            "info": "Aug, 2024",
+                            "text": "An elegant e-commerce presence for Dermivy, a German skincare brand focused on excellence and rejuvenation through precision.",
+                            "details": "<p>Founded in Germany, <strong>Dermivy Skincare</strong> is synonymous with excellence in skincare. This WordPress-based solution empowers individuals with a platform that reflects their German heritage and the precision that goes into every product designed to protect, nourish, and rejuvenate the skin.</p> <h6 class='mt-4 fw-bold'>Technical Focus:</h6> <ul class='mt-3'><li>Custom WordPress development tailored for luxury skincare branding</li><li>Emphasis on visual precision and high-quality product storytelling</li><li>Optimized performance for a worldwide audience</li><li>Scalable infrastructure focused on German precision and design standards</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "Skincare",
+                                "Germany",
+                                "Business"
+                            ]
+                        },
+                        "ar": {
+                            "title": "موقع ديرميفي للعناية بالبشرة",
+                            "type": "مشروع تجاري",
+                            "info": "أغسطس، ٢٠٢٤",
+                            "text": "واجهة إلكترونية أنيقة لعلامة ديرميفي الألمانية المتخصصة في العناية بالبشرة والتميز الدقيق.",
+                            "details": "<p>تأسست <strong>ديرميفي</strong> في قلب ألمانيا، وهي مرادف للتميز في العناية بالبشرة. الموقع مبني باستخدام <strong>WordPress</strong> ليعكس التراث الألماني والدقة في كل منتج يهدف إلى حماية وتغذية وتجديد البشرة.</p> <h6 class='mt-4 fw-bold'>التركيز التقني:</h6> <ul class='mt-3'><li>تطوير WordPress مخصص لعلامات العناية بالبشرة الفاخرة</li><li>التركيز على الدقة البصرية وجودة سرد قصص المنتجات</li><li>أداء محسن للجمهور العالمي</li><li>بنية تحتية قابلة للتوسع تركز على معايير التصميم الألمانية</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "العناية بالبشرة",
+                                "ألمانيا",
+                                "تجاري"
+                            ]
+                        },
+                        "ku": {
+                            "title": "وێب سایتی دێرمایڤی سکین کێر",
+                            "type": "پڕۆژەی بازرگانی",
+                            "info": "ئاب، ٢٠٢٤",
+                            "text": "وێب سایتێکی نایاب بۆ بەراندە ئەڵمانییەکانی سکین کێر، کە جەخت لەسەر نایاببوون و نوێکردنەوەی پێست دەکاتەوە.",
+                            "details": "<p><strong>Dermivy Skincare</strong> لە ئەڵمانیا دامەزراوە، کە گوزارشت لە نایاببوون دەکات لە پاراستنی پێست. ئەم وێب سایتە بە <strong>WordPress</strong> دروستکراوە بۆ نیشاندانی کوالیتی بەرهەمە ئەڵمانییەکان کە بۆ پاراستن و گەنجکردنەوەی پێست دیزاین کراون.</p> <h6 class='mt-4 fw-bold'>تایبەتمەندییە تەکنیکییەکان:</h6> <ul class='mt-3'><li>پەرەپێدانی WordPress ی تایبەت بۆ براندە نایابەکان</li><li>جەختکردنەوە لەسەر وردەکاری بڕاند و نیشاندانی کوالیتی بەرهەمەکان</li><li>باشترکردنی خێرایی بۆ بینەرانی نێودەوڵەتی</li><li>ژێرخانێکی بەهێز کە لەسەر بنەمای وردەکاری ئەڵمانی دروستکراوە</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "سکین کێر",
+                                "ئەڵمانیا",
+                                "بازرگانی"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "website",
+                    "icon": {
+                        "img": "images/pictures/ishtar-north-logo.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://ishtar-north.com/"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ishtar North Corporate Website",
+                            "type": "Business Project",
+                            "info": "Mar, 2024",
+                            "text": "A comprehensive corporate website developed for Ishtar North, a leading international trade and distribution company in Iraq.",
+                            "details": "<p>Ishtar North is a prominent company specialized in importing industrial and household products from China, Europe, and Turkey. The website is developed using <strong>WordPress</strong> with a custom-engineered multi-language system supporting English, Arabic, and Kurdish. It serves as a digital bridge for more than 16,000 local traders.</p> <h6 class='mt-4 fw-bold'>Key Features:</h6> <ul class='mt-3'><li>Fully responsive corporate identity and product showcase</li><li>Integrated 3-language system (EN, AR, KU) for broader accessibility</li><li>Optimized SEO structure to target regional distribution partners</li><li>Professional dashboard for managing large-scale company updates</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "Corporate",
+                                "Multi-Language",
+                                "Ishtar North"
+                            ]
+                        },
+                        "ar": {
+                            "title": "موقع شركة عشتار الشمال",
+                            "type": "مشروع تجاري",
+                            "info": "مارس، ٢٠٢٤",
+                            "text": "موقع إلكتروني شامل للشركات تم تطويره لشركة عشتار الشمال، وهي شركة رائدة في التجارة الدولية والتوزيع في العراق.",
+                            "details": "<p>عشتار الشمال هي شركة بارزة متخصصة في استيراد المنتجات الصناعية والمنزلية من الصين وأوروبا وتركيا. تم تطوير الموقع باستخدام <strong>WordPress</strong> مع نظام متعدد اللغات يدعم الإنجليزية والعربية والكردية لخدمة أكثر من ١٦,٠٠٠ تاجر محلي.</p> <h6 class='mt-4 fw-bold'>الميزات الرئيسية:</h6> <ul class='mt-3'><li>هوية مؤسسية مستجيبة بالكامل وعرض المنتجات</li><li>نظام متكامل لثلاث لغات (العربية، الإنجليزية، الكردية)</li><li>هيكل SEO محسن لاستهداف شركاء التوزيع الإقليميين</li><li>لوحة تحكم احترافية لإدارة تحديثات الشركة واسعة النطاق</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "شركة",
+                                "متعدد اللغات",
+                                "عشتار الشمال"
+                            ]
+                        },
+                        "ku": {
+                            "title": "وێب سایتی کۆمپانیای عەشتار نۆرس",
+                            "type": "پڕۆژەی بازرگانی",
+                            "info": "ئازار، ٢٠٢٤",
+                            "text": "وێب سایتێکی تەواوی کۆمپانیایە کە بۆ عەشتار نۆرس پەرەپێدراوە، کە یەکێکە لە کۆمپانیا پێشەنگەکانی بازرگانی نێودەوڵەتی لە عێراق.",
+                            "details": "<p>عەشتار نۆرس کۆمپانیایەکی دیارە کە تایبەتمەندە لە هاوردەکردنی بەرهەمە پیشەسازی و ناوماڵەکان لە چین، ئەوروپا و تورکیا. وێب سایتەکە بە بەکارهێنانی <strong>WordPress</strong> دروستکراوە بە سیستەمێکی سێ زمانە (ئینگلیزی، عەرەبی، کوردی) بۆ خزمەتکردنی زیاتر لە ١٦,٠٠٠ بازرگانی ناوخۆیی.</p> <h6 class='mt-4 fw-bold'>تایبەتمەندییە سەرەکییەکان:</h6> <ul class='mt-3'><li>ناسینەوەی تەواوی کۆمپانیا و نمایشی بەرهەمەکان</li><li>سیستەمی سێ زمانەی تێهەڵکێشکراو (ئینگلیزی، عەرەبی، کوردی)</li><li>پێکهاتەی SEOی باشترکراو بۆ هاوبەشەکانی دابەشکردنی ناوچەیی</li><li>داشبۆردێکی پیشەیی بۆ بەڕێوەبردنی نوێکارییەکانی کۆمپانیا</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "کۆمپانیا",
+                                "سێ زمانە",
+                                "عەشتار نۆرس"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "website",
+                    "icon": {
+                        "img": "images/pictures/zonnlighting-logo.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://zonnlighting.com/"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Zonn Lighting Corporate Website",
+                            "type": "Business Project",
+                            "info": "April, 2023",
+                            "text": "The leading corporate presence for Zonn Lighting, the premier provider of innovative lighting solutions in Iraq-Kurdistan.",
+                            "details": "<p>Zonn Lighting is the foremost lighting company in Iraq-Kurdistan, dedicated to creating experiences through innovation and design excellence. This corporate website is built with <strong>WordPress</strong>, focusing on a premium user experience that reflects their commitment to transforming environments through the power of light.</p> <h6 class='mt-4 fw-bold'>Technical Focus:</h6> <ul class='mt-3'><li>Custom WordPress architecture optimized for high-end product showcases</li><li>Sleek, modern UI/UX design reflecting the brand's 'Innovation meets Talent' values</li><li>Performance optimization for fast, globally accessible content delivery</li><li>Scalable infrastructure for managing extensive lighting project galleries</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "Corporate",
+                                "Kurdistan",
+                                "Lighting"
+                            ]
+                        },
+                        "ar": {
+                            "title": "موقع شركة زون للإضاءة",
+                            "type": "مشروع تجاري",
+                            "info": "أبريل، ٢٠٢٣",
+                            "text": "الواجهة الأساسية لشركة زون، المزود الرائد لحلول الإضاءة المبتكرة في العراق وكردستان.",
+                            "details": "<p>زون هي شركة الإضاءة الرائدة في العراق وكردستان، الملتزمة بالابتكار والتميز في التصميم. هذا الموقع المؤسسي مبني باستخدام <strong>WordPress</strong>، مع التركيز على تجربة مستخدم متميزة تعكس التزامهم بتحويل البيئات من خلال قوة الضوء.</p> <h6 class='mt-4 fw-bold'>التركيز التقني:</h6> <ul class='mt-3'><li>هندسة WordPress مخصصة محسنة لعروض المنتجات الراقية</li><li>تصميم واجهة مستخدم حديث يعكس قيم الابتكار للعلامة التجارية</li><li>تحسين الأداء لضمان وصول سريع للمحتوى عالمياً</li><li>بنية تحتية قابلة للتوسع لإدارة معارض مشاريع الإضاءة الواسعة</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "شركة",
+                                "كردستان",
+                                "إضاءة"
+                            ]
+                        },
+                        "ku": {
+                            "title": "وێب سایتی کۆمپانیای زۆن لایتینگ",
+                            "type": "پڕۆژەی بازرگانی",
+                            "info": "نیسان، ٢٠٢٣",
+                            "text": "نوێنەری سەرەکی دیجیتاڵ بۆ کۆمپانیای زۆن، دابینکەری سەرەکی چارەسەرە نوێیەکانی ڕووناککردنەوە لە عێراق و کوردستان.",
+                            "details": "<p>زۆن پێشەنگترین کۆمپانیای ڕووناککردنەوەیە لە عێراق و کوردستان، کە تەرخان کراوە بۆ دروستکردنی ئەزموونی نوێ لە ڕێگەی داهێنان و دیزاینی نایاب. ئەم وێب سایتە بە بەکارهێنانی <strong>WordPress</strong> دروستکراوە، جەخت لەسەر ئەزموونی بەکارهێنەری نایاب دەکاتەوە.</p> <h6 class='mt-4 fw-bold'>تایبەتمەندییە تەکنیکییەکان:</h6> <ul class='mt-3'><li>پێکهاتەی WordPress ی تایبەت بۆ نمایشی بەرهەمە نایابەکان</li><li>دیزاینی ڕووکاری مۆدێرن کە گوزارشت لە داهێنانی براندەکە دەکات</li><li>باشترکردنی خێرایی بۆ گەیشتن بە ناوەڕۆک بە خێراییەکی زۆر</li><li>توانای بەڕێوەبردنی گەلەرییە گەورەکانی پڕۆژەکانی ڕووناککردنەوە</li></ul>",
+                            "tags": [
+                                "WordPress",
+                                "کۆمپانیا",
+                                "کوردستان",
+                                "لایتینگ"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "website",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-apple",
+                        "faColors": {
+                            "bg": "#f5f5f7",
+                            "fill": "#000000"
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/omer-github93/iPhoneLandingPage"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "iPhone Landing Page Template",
+                            "type": "Personal Project",
+                            "info": "Jan, 2020",
+                            "text": "This template was created for learning purposes, focusing on responsive design and modern web layouts.",
+                            "details": "<p>This template is just for learning purpose. This template is created by using HTML, CSS, Bootstrap, and JavaScript. It features a sleek, mobile-first landing page design for an iPhone product showcase.</p> <h6 class='mt-4 fw-bold'>Technical Focus:</h6> <ul class='mt-3'><li>Responsive layout using Bootstrap grid</li><li>Custom CSS animations for improved user interaction</li><li>Clean and modular HTML structure</li><li>Interactive elements powered by Vanilla JavaScript</li></ul>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "Bootstrap",
+                                "JavaScript"
+                            ]
+                        },
+                        "ar": {
+                            "title": "نموذج صفحة هبوط آيفون",
+                            "type": "مشروع شخصي",
+                            "info": "يناير، ٢٠٢٠",
+                            "text": "تم إنشاء هذا القالب لأغراض تعليمية، مع التركيز على التصميم المستجيب وتخطيطات الويب الحديثة.",
+                            "details": "<p>هذا القالب هو مجرد لغرض التعلم. تم إنشاء هذا القالب باستخدام HTML و CSS و Bootstrap و JavaScript. يتميز بتصميم صفحة هبوط أنيق يركز على الهاتف المحمول لعرض منتج iPhone.</p> <h6 class='mt-4 fw-bold'>التركيز التقني:</h6> <ul class='mt-3'><li>تصميم مستجيب باستخدام شبكة Bootstrap</li><li>رسوم CSS مخصصة لتحسين تفاعل المستخدم</li><li>هيكل HTML نظيف وقابل للتعديل</li><li>عناصر تفاعلية مدعومة بـ Vanilla JavaScript</li></ul>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "Bootstrap",
+                                "JavaScript"
+                            ]
+                        },
+                        "ku": {
+                            "title": "تێمپلێتی لاندینگ پەیجی ئایفۆن",
+                            "type": "پڕۆژەی کەسی",
+                            "info": "کانوونی دووەم، ٢٠٢٠",
+                            "text": "ئەم تێمپلێتە بۆ مەبەستی فێربوون دروستکراوە، بە جەختکردنەوە لەسەر دیزاینی وەڵامدەر و نەخشەی وێبی مۆدێرن.",
+                            "details": "<p>ئەم تێمپلێتە تەنها بۆ مەبەستی فێربوونە. ئەم تێمپلێتە بە بەکارهێنانی HTML، CSS، Bootstrap، و JavaScript دروستکراوە. دیزاینێکی لاندینگ پەیجی مۆدێرن بۆ پڕۆدەکتی iPhone لەخۆدەگرێت.</p> <h6 class='mt-4 fw-bold'>تایبەتمەندییە تەکنیکییەکان:</h6> <ul class='mt-3'><li>دیزاینی وەڵامدەر بە بەکارهێنانی Bootstrap grid</li><li>جوڵەی CSS ی تایبەت بۆ باشترکردنی کارلێکی بەکارهێنەر</li><li>پێکهاتەی HTML ی پاک و ڕێکخراو</li><li>پێکهاتە کارلێکەرەکان بە Vanilla JavaScript</li></ul>",
+                            "tags": [
+                                "HTML",
+                                "CSS",
+                                "Bootstrap",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
