@@ -1,9 +1,8 @@
-
-# [<img src="readme-assets/logo.png"> React Portfolio](https://github.com/omer-github93/my-portfolio-website) by Omer Tariq
+# [my-portfolio-website](https://github.com/omer-github93/my-portfolio-website) by Omer Tariq
 
 A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
 
-![alt tag1](readme-assets/promo.png)
+![Portfolio Preview](public/images/readme-screenshots/Desktop-Screenshot.png)
 
 Key features:
 - Lightweight and fully responsive.
@@ -21,17 +20,17 @@ Check out the live version of the template.
 ### 1. Base layout
 The layout uses a fixed central view with a left sidebar, adjusting perfectly across various monitor resolutions, from 4:3 to ultra-wide.
 
-![alt tag1](readme-assets/demo.png)
+![Base Layout](public/images/readme-screenshots/Base-layout-Screenshot.png)
 
 ### 2. Desktop Screenshots
 The main view transitions smoothly when a new page is selected from the sidebar, giving a page-flipping effect. The sidebar is also toggleable, allowing the content area to expand for a larger viewing space.
 
-![alt tag1](readme-assets/desktop.png)
+![Desktop Screenshot](public/images/readme-screenshots/Desktop-Screenshot.png)
 
 ### 3. Mobile Screenshots
 On mobile, the layout groups the portfolio sections into categories and transforms into a tabbed interface with a bottom navigation.
 
-![alt tag1](readme-assets/mobile.png)
+![Mobile Screenshot](public/images/readme-screenshots/Mobile-Screenshot.png)
 
 ## Installation
 
@@ -89,11 +88,28 @@ To add or remove languages, open `public/data/settings.json` and modify the `sup
             "flagUrl": "images/flags/en.png",
             "default": true
         },
-
         {
-            "name": "日本語",
-            "id": "ja",
-            "flagUrl": "images/flags/ja.png"
+            "name": "العربية",
+            "id": "ar",
+            "flagUrl": "images/flags/iq.png"
+        },
+        {
+            "name": "کوردی",
+            "id": "ku",
+            "flagUrl": "images/flags/ku.png"
+        }
+    ],
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
         }
     ]
 }
@@ -175,7 +191,7 @@ import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 const {getString} = useLanguage()
 
 const translation = getString("close")
-console.log(translation) // Will print "Close" (en) or "Cerrar" (es)
+console.log(translation) // Will print "Close" (en) or "إغلاق" (ar)
 ```
 
 For translations specific to sections, you can create a custom `locales` field inside the section's JSON file: 
@@ -188,9 +204,14 @@ For translations specific to sections, you can create a custom `locales` field i
             "age": "Age"
         },
         
-        "es": {
-            "hello": "Hola!",
-            "age": "Edad"
+        "ar": {
+            "hello": "مرحباً!",
+            "age": "العمر"
+        },
+
+        "ku": {
+            "hello": "سڵاو!",
+            "age": "تەمەن"
         }
     }
 }
@@ -203,7 +224,7 @@ import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 const {getTranslation} = useLanguage()
 
 const hello = getTranslation(section.content.locales, "hello")
-console.log(hello) // Will print "Hello!" (en) or "Hola!" (es)
+console.log(hello) // Will print "Hello!" (en) or "مرحباً!" (ar)
 ```
 
 ### 7. Contact form configuration
@@ -243,7 +264,7 @@ Open `vite.config.js` and set the base directory for your application. This sett
 
 ```js
 export default defineConfig({
-  base: '/react-portfolio-template/',
+  base: '/my-portfolio-website/',
   plugins: [react()],
 })
 ```
