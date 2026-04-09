@@ -52,11 +52,11 @@ export const useUtils = () => {
 
     /** @return {string|null} */
     const resolvePath = (path) => {
-        if(!path) {
+        if (!path) {
             return null
         }
 
-        if(path.charAt(0) !== '/') {
+        if (path.charAt(0) !== '/') {
             path = '/' + path
         }
 
@@ -69,7 +69,7 @@ export const useUtils = () => {
      * @return {string|*}
      */
     const strIf = (condition, string) => {
-        if(condition)
+        if (condition)
             return string
         return ''
     }
@@ -89,11 +89,11 @@ export const useUtils = () => {
      */
     const isElementOutsideBounds = (element, offset) => {
         offset = offset || 0
-        if(!element)
+        if (!element)
             return true
 
         const rect = element.getBoundingClientRect()
-        if(!rect)
+        if (!rect)
             return true
 
         return (
@@ -149,7 +149,7 @@ export const useUtils = () => {
 
     /** @return {string} **/
     const parseJsonText = (text) => {
-        if(typeof text !== 'string')
+        if (typeof text !== 'string')
             return text
 
         let parsed = text
@@ -159,7 +159,7 @@ export const useUtils = () => {
 
     /** @return {string} **/
     const limitTextSize = (string, maxChars) => {
-        if(string.length <= maxChars) {
+        if (string.length <= maxChars) {
             return string
         }
 
@@ -182,10 +182,10 @@ export const useUtils = () => {
 
     /** @return {string| null} **/
     const formatDate = (rawDate, languageId, displayMonthAsString, hideDay) => {
-        if(!rawDate || rawDate === '')
+        if (!rawDate || rawDate === '')
             return ''
 
-        if(!rawDate.includes('/'))
+        if (!rawDate.includes('/'))
             return rawDate
 
         const options = {
@@ -208,12 +208,12 @@ export const useUtils = () => {
         const formattedStart = formatDate(rawDateStart, languageId, displayMonthAsString, hideDay)
         const formattedEnd = formatDate(rawDateEnd, languageId, displayMonthAsString, hideDay)
 
-        if(formattedStart !== '') {
+        if (formattedStart !== '') {
             str += formattedStart
         }
 
-        if(formattedEnd !== '') {
-            if(str.length !== 0) {
+        if (formattedEnd !== '') {
+            if (str.length !== 0) {
                 str += ' ➔ '
             }
 
@@ -225,7 +225,7 @@ export const useUtils = () => {
 
     /** @return {Number} **/
     const getYearsPassedSince = (rawDate) => {
-        if(!rawDate)
+        if (!rawDate)
             return 0
 
         const pastDate = new Date(rawDate)
@@ -249,35 +249,21 @@ export const useUtils = () => {
     /**
      * @param {Boolean} enabled
      */
-    let scrollLockCount = 0
     const setPageScrollingEnabled = (enabled) => {
         const body = document.body
 
-        if(!enabled) {
-            scrollLockCount++
-            if (scrollLockCount > 1) return
-
+        if (!enabled) {
             window.savedScrollY = window.scrollY
             body.classList.add(`body-no-scroll`)
-            if(isIOS()) {
-                body.style.top = `-${window.savedScrollY}px`
+            if (isIOS()) {
                 body.classList.add(`position-fixed`)
-                body.style.width = '100%'
             }
         }
         else {
-            scrollLockCount = Math.max(0, scrollLockCount - 1)
-            if (scrollLockCount > 0) return
-            
             body.classList.remove(`body-no-scroll`)
-            
-            if(isIOS()) {
-                body.classList.remove(`position-fixed`)
-                body.style.top = ''
-                body.style.width = ''
-            }
+            body.classList.remove(`position-fixed`)
 
-            if(window.savedScrollY !== undefined && window.savedScrollY !== null) {
+            if (window.savedScrollY) {
                 window.scrollTo(0, window.savedScrollY)
                 window.savedScrollY = null
             }
