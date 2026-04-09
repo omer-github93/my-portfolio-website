@@ -2,7 +2,6 @@
 
 A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
 
-![Portfolio Preview](public/images/readme-screenshots/Desktop-Screenshot.png)
 
 Key features:
 - Lightweight and fully responsive.
