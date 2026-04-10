@@ -4,12 +4,15 @@
     --default-size: 70px;
     --padding: 2rem;
     --border-color: var(--theme-highlight);
+
     @include media-breakpoint-down(xl) {
         --padding: 1.5rem;
     }
+
     @include media-breakpoint-down(md) {
         --padding: 1rem;
     }
+
     @media (max-width: 380px) {
         --padding: 0.75rem;
     }
@@ -23,13 +26,15 @@
         overflow-x: hidden;
     }
 
-    &-block-top, &-block-bottom {
+    &-block-top,
+    &-block-bottom {
         display: inline-block;
         position: absolute;
         background: 0 0;
         width: var(--default-size);
         height: var(--default-size);
         z-index: 0;
+        left: 20px;
     }
 
     &-block-top {
@@ -43,15 +48,16 @@
         right: 0;
         bottom: 0;
     }
-    
+
     @include media-breakpoint-down(lg) {
         &-content {
             padding: 10px 0;
         }
 
-        &-block-top, &-block-bottom {
+        &-block-top,
+        &-block-bottom {
             display: none;
         }
-        
+
     }
 }

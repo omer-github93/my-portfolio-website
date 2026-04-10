@@ -1,11 +1,20 @@
 /** ----------- FONTS ------------ **/
 :root {
     --font-geist-sans: "Geist Sans", "Geist Sans Fallback", system-ui, -apple-system, sans-serif;
+    --font-noto-kufi: "Noto Kufi Arabic", sans-serif;
+
+    --font-site-main: var(--font-geist-sans);
+    --font-site-headings: var(--font-geist-sans);
 }
 
-$font-family-base: var(--font-geist-sans);
-$headings-font-family: var(--font-geist-sans);
-$custom-subheadings-font-family: var(--font-geist-sans);
+[dir='rtl'] {
+    --font-site-main: var(--font-noto-kufi);
+    --font-site-headings: var(--font-noto-kufi);
+}
+
+$font-family-base: var(--font-site-main);
+$headings-font-family: var(--font-site-headings);
+$custom-subheadings-font-family: var(--font-site-main);
 
 /** --------- Z-INDEXES ---------- **/
 $z-index-section-inactive: 10;

@@ -1,8 +1,8 @@
 /** Customizing Bootstrap/Swiper components... **/
 button {
     &:focus {
-        box-shadow: none!important;
-        outline: none!important;
+        box-shadow: none !important;
+        outline: none !important;
         transition: none;
     }
 }
@@ -16,9 +16,11 @@ button {
     color: var(--theme-secondary);
     border: 0;
 
-    &:hover, &:focus, &:active {
-        background-color: var(--theme-highlight)!important;
-        color: var(--theme-dark)!important;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--theme-highlight) !important;
+        color: var(--theme-dark) !important;
     }
 
     &.disabled {
@@ -33,9 +35,11 @@ button {
     color: var(--theme-dark);
     border: 0;
 
-    &:hover, &:focus, &:active {
-        background-color: var(--theme-secondary)!important;
-        color: var(--theme-dark)!important;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--theme-secondary) !important;
+        color: var(--theme-dark) !important;
     }
 
     &.disabled {
@@ -50,9 +54,11 @@ button {
     color: var(--theme-dark);
     border: 0;
 
-    &:hover, &:focus, &:active {
-        background-color: var(--theme-highlight-2)!important;
-        color: var(--theme-dark)!important;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--theme-highlight-2) !important;
+        color: var(--theme-dark) !important;
     }
 
     &.disabled {
@@ -93,8 +99,8 @@ button {
 .btn.selected {
     user-select: none;
     pointer-events: none;
-    background-color: var(--theme-highlight)!important;
-    color: var(--theme-dark)!important;
+    background-color: var(--theme-highlight) !important;
+    color: var(--theme-dark) !important;
 }
 
 .card {
@@ -103,7 +109,8 @@ button {
     border: 0;
     border-radius: $standard-border-radius;
 
-    &-header, &-footer {
+    &-header,
+    &-footer {
         background-color: transparent;
     }
 
@@ -135,18 +142,20 @@ button {
     span.menu-item-label {
         color: var(--theme-secondary);
         font-size: 0.9rem;
-        opacity: 0.7!important;
+        opacity: 0.7 !important;
     }
 
     &:focus {
         outline: none;
     }
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         background-color: var(--theme-highlight);
+
         span.menu-item-label {
             color: var(--theme-dark);
-            opacity: 1!important;
+            opacity: 1 !important;
         }
     }
 }
@@ -166,8 +175,8 @@ button {
 }
 
 span.swiper-pagination-bullet {
-    width: 20px!important;
-    height: 5px!important;
+    width: 20px !important;
+    height: 5px !important;
     position: relative;
     top: 12px;
     background: var(--theme-muted);
