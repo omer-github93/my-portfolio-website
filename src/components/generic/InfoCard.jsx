@@ -28,7 +28,7 @@ function InfoCard({title, text, img, fallbackIcon, fallbackIconColors, dateInter
             getString('cancel'),
             getString('proceed'),
             () => {
-                window.open(href, '_blank')
+                window.open(href, '_blank', 'noopener,noreferrer')
             }
         )
     }

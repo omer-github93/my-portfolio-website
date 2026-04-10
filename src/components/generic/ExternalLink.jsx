@@ -19,7 +19,7 @@ function ExternalLink({href, className, children}) {
             getString('cancel'),
             getString('proceed'),
             () => {
-                window.open(href, '_blank')
+                window.open(href, '_blank', 'noopener,noreferrer')
             }
         )
     };

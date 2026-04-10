@@ -1,3 +1,5 @@
+import DOMPurify from 'dompurify'
+
 export const useUtils = () => {
     const BASE_URL = import.meta.env.BASE_URL.replace(/\/$/, '')
 
@@ -154,7 +156,7 @@ export const useUtils = () => {
 
         let parsed = text
         parsed = parsed.replace(/\*\*(.*?)\*\*/g, `<span class="text-highlight">$1</span>`)
-        return parsed
+        return DOMPurify.sanitize(parsed, { ADD_ATTR: ['target'] })
     }
 
     /** @return {string} **/
@@ -301,6 +303,7 @@ export const useUtils = () => {
         isFirefox,
         isSafari,
         isRtl,
+        sanitizeHTML: (html) => typeof html === 'string' ? DOMPurify.sanitize(html, { ADD_ATTR: ['target'] }) : html,
         parseJsonText,
         limitTextSize,
         didLoadAllImages,
