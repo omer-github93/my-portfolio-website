@@ -3,10 +3,12 @@ import React from 'react'
 import { useData } from "/src/providers/DataProvider.jsx"
 import Section from "/src/components/layout/Section.jsx"
 import { useWindow } from "/src/providers/WindowProvider.jsx"
+import { useLanguage } from "/src/providers/LanguageProvider.jsx"
 
 function MainSlider() {
     const { getSections } = useData()
     const { hasFooterOffset } = useWindow()
+    const { getString } = useLanguage()
 
     const sections = getSections()
     const addOnClassList = hasFooterOffset() ? `sections-slider-offset-bottom ` : ``
@@ -20,7 +22,7 @@ function MainSlider() {
             })}
 
             <footer className="copyright-footer">
-                <p>Copyright © 2026 All Rights Reserved by <span className="text-highlight">Omer Tariq</span>.</p>
+                <p dangerouslySetInnerHTML={{__html: getString('footer_copyright')}}/>
             </footer>
         </div>
     )

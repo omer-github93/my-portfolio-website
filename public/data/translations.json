@@ -37,7 +37,8 @@
             "watch_video": "Watch video",
             "where_to_find": "Where to find",
             "yay": "Yay!",
-            "yes": "Yes"
+            "yes": "Yes",
+            "footer_copyright": "Copyright © 2026 All Rights Reserved by <span class=\"text-highlight\">Omer Tariq</span>."
         },
         "ar": {
             "about": "نبذة عني",
@@ -76,7 +77,8 @@
             "watch_video": "مشاهدة الفيديو",
             "where_to_find": "أين تجدني",
             "yay": "رائع!",
-            "yes": "نعم"
+            "yes": "نعم",
+            "footer_copyright": "حقوق النشر © 2026 جميع الحقوق محفوظة لـ <span class=\"text-highlight\">عمر طارق</span>."
         },
         "ku": {
             "about": "دەربارە",
@@ -115,7 +117,8 @@
             "watch_video": "سەیرکردنی ڤیدیۆ",
             "where_to_find": "لە کوێ دەمدۆزیتەوە",
             "yay": "نایابە!",
-            "yes": "بەڵێ"
+            "yes": "بەڵێ",
+            "footer_copyright": "هەموو مافەکان پارێزراوە © 2026 بۆ <span class=\"text-highlight\">عومەر تاریق</span>."
         }
     }
 }
