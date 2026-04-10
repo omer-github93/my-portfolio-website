@@ -19,18 +19,22 @@
             "title_long": "دوایین **نوێکارییەکان** بپۆشە"
         }
     },
-
     "articles": [
         {
             "id": "fun_facts",
             "component": "ArticleServices",
             "config": {},
             "locales": {
-                "en": { "title": "Quick **Facts**" },
-                "ar": { "title": "حقائق سريعة" },
-                "ku": { "title": "ڕاستییە خێراکان" }
+                "en": {
+                    "title": "Quick **Facts**"
+                },
+                "ar": {
+                    "title": "حقائق سريعة"
+                },
+                "ku": {
+                    "title": "ڕاستییە خێراکان"
+                }
             },
-
             "items": [
                 {
                     "icon": {
@@ -97,7 +101,6 @@
                 }
             ]
         },
-
         {
             "id": "updates",
             "component": "ArticleThread",
@@ -105,11 +108,16 @@
                 "shouldSort": false
             },
             "locales": {
-                "en": { "title": "Latest **Updates**" },
-                "ar": { "title": "آخر **التحديثات**" },
-                "ku": { "title": "دوایین **نوێکارییەکان**" }
+                "en": {
+                    "title": "Latest **Updates**"
+                },
+                "ar": {
+                    "title": "آخر **التحديثات**"
+                },
+                "ku": {
+                    "title": "دوایین **نوێکارییەکان**"
+                }
             },
-
             "items": [
                 {
                     "faIcon": "fa-solid fa-earth-americas",
@@ -118,7 +126,10 @@
                         "end": null
                     },
                     "links": [
-                        { "string": "see_more", "href": "https://github.com/omer-github93" }
+                        {
+                            "string": "see_more",
+                            "href": "https://omertech.vercel.app/"
+                        }
                     ],
                     "locales": {
                         "en": {
@@ -164,7 +175,10 @@
                         "end": null
                     },
                     "links": [
-                        {"string": "see_more", "href": "https://youtube.com"}
+                        {
+                            "string": "see_more",
+                            "href": "https://youtube.com"
+                        }
                     ],
                     "locales": {
                         "en": {
